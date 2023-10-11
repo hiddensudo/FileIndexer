@@ -1,4 +1,0 @@
-/home/hidden/cpprojects/indexer/build/CMakeFiles/main.dir
-/home/hidden/cpprojects/indexer/build/CMakeFiles/run.dir
-/home/hidden/cpprojects/indexer/build/CMakeFiles/edit_cache.dir
-/home/hidden/cpprojects/indexer/build/CMakeFiles/rebuild_cache.dir
