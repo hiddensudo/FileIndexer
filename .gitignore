@@ -71,6 +71,5 @@ CTestTestfile.cmake
 _deps
 
 # other
-client
-server
 /build
+.clang-format
