@@ -3,6 +3,7 @@
 
 #include <atomic>
 #include <condition_variable>
+#include <filesystem>
 #include <mutex>
 #include <queue>
 #include <string>
@@ -22,10 +23,8 @@ private:
     void indexInDirAndSubdir(const std::string startDirectory);
     void indexInCurrentDir(const std::string startDirectory);
     void processDirecory();
-    void sortByName();
-    void sortByExtension();
-    void sortByDate();
-    void sortBySize();
+
+    void writeInXml(const std::filesystem::directory_entry& entry);
     // void initList(std::string startDirectory);
 public:
     Indexer(std::string startDirectory);

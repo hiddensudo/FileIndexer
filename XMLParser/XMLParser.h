@@ -1,21 +1,16 @@
 #ifndef XMLParser_H
 #define XMLParser_H
 
-#include <string>
+#include <QFile>
 
 class XMLParser {
-private:
-    QFile file;
-    bool isReadOnly;
 protected:
-    void openReadOnly();
-    void openWriteOnly();
+    QFile file;
+    virtual void openFile() = 0;
     void close();
 
-    void openIfFileExist();
-
 public:
-    XMLParser(const QString fileName, bool isReadOnly);
+    XMLParser(const QString fileName);
     virtual ~XMLParser();
 };
 

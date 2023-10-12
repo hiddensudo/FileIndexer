@@ -1,11 +1,12 @@
 #include "Indexer.h"
 
 #include <chrono>
-#include <filesystem>
 #include <format>
 #include <iostream>
 #include <thread>
 #include <vector>
+
+#include "XMLWriter.h"
 
 void Indexer::startIndexing() {
     const unsigned int maxThreads = std::thread::hardware_concurrency() - 1;
@@ -26,22 +27,32 @@ bool Indexer::toggleIndexingScope() {
     return this->isIndexingInCurrentDir = !this->isIndexingInCurrentDir;
 }
 
-// temporary solution, then there will be xml
-void printIndexFile(const std::filesystem::directory_entry& entry) {
-    // covert time for cout
+std::time_t convertToTimeT(const std::filesystem::directory_entry& entry) {
     auto fileTime = std::filesystem::last_write_time(entry.path());
     auto systemTime =
         std::chrono::time_point_cast<std::chrono::system_clock::duration>(
             fileTime - std::filesystem::file_time_type::clock::now() +
             std::chrono::system_clock::now());
-    std::time_t cftime = std::chrono::system_clock::to_time_t(systemTime);
+    return std::chrono::system_clock::to_time_t(systemTime);
+}
 
-    std::cout << "File name: " << entry.path().filename() << std::endl;
-    std::cout << "File extension: " << entry.path().extension() << std::endl;
-    std::cout << "File date: " << std::ctime(&cftime);
-    std::cout << "File size: " << std::filesystem::file_size(entry.path())
-              << " bytes" << std::endl;
-    std::cout << std::endl;
+QString convertTime(const std::filesystem::directory_entry& entry) {
+    std::time_t cftime = convertToTimeT(entry);
+    return QString::fromStdString(std::ctime(&cftime));
+}
+
+void Indexer::writeInXml(const std::filesystem::directory_entry& entry) {
+    QString name = QString::fromStdString(entry.path().filename().string());
+
+    QString extension =
+        QString::fromStdString(entry.path().extension().string());
+
+    QString date = convertTime(entry);
+
+    QString size = QString::number(std::filesystem::file_size(entry.path()));
+    XMLWriter wr("../test.xml");
+
+    wr.writeInFile("XMLDataBase", name, extension, date, size);
 }
 
 void Indexer::indexInCurrentDir(const std::string startDirectory) {
@@ -57,7 +68,7 @@ void Indexer::indexInCurrentDir(const std::string startDirectory) {
                 {
                     std::unique_lock<std::mutex> lock(queueMutex);
 
-                    printIndexFile(entry);
+                    writeInXml(entry);
 
                     this->queueCV.notify_one();
                 }
@@ -92,7 +103,7 @@ void Indexer::indexInDirAndSubdir(const std::string startDirectory) {
                 {
                     std::unique_lock<std::mutex> lock(queueMutex);
 
-                    printIndexFile(entry);
+                    writeInXml(entry);
 
                     this->queueCV.notify_one();
                 }
