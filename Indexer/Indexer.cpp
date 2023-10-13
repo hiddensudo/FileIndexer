@@ -164,6 +164,6 @@ void Indexer::indexFilesBaseOnScope(const std::string currentDirectory) {
 }
 
 Indexer::Indexer(std::string startDirectory)
-    : activeThreads(0), isIndexingInCurrentDir(false) {
+    : activeThreads(0), isIndexingInCurrentDir(true) {
     this->directoryQueue.push(startDirectory);
 }
