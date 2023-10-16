@@ -7,6 +7,8 @@
 
 class XMLWriter : public XMLParser {
 private:
+    QDomDocument document;
+
     void openFile() override;
     void openIfExist();
 
@@ -19,10 +21,13 @@ private:
     bool checkAndUpdateFile(const QString &name, const QString &extension,
                             const QString &date, const QString &size,
                             QDomElement &root);
+    QDomElement createTextElement(const QString &tagName, const QString &text,
+                                  QDomDocument &document);
+    bool isFileExists(const QString &listName, const QString &fileName);
 
 public:
     XMLWriter(const QString &fileName);
-    ~XMLWriter() = default;
+    ~XMLWriter();
     void writeInFile(const QString listName, const QString name,
                      const QString extension, const QString date,
                      const QString size);

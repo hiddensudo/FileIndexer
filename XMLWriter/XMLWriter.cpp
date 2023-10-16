@@ -33,67 +33,73 @@ QDomElement XMLWriter::getRoot(const QString &listName,
     return root;
 }
 
-QDomElement XMLWriter::createFileElement(const QString &name,
-                                         const QString &extension,
-                                         const QString &date,
-                                         const QString &size,
-                                         QDomDocument &document) {
-    QDomElement fileElem = document.createElement("file");
-    fileElem.setAttribute("name", name);
-    fileElem.setAttribute("extension", extension);
-    fileElem.setAttribute("date", date);
-    fileElem.setAttribute("size", size);
-    return fileElem;
-}
-
 void XMLWriter::writeToFile(QDomDocument &document) {
     this->file.resize(0);
     QTextStream xmlContent(&file);
     xmlContent << document.toString();
 }
 
-bool XMLWriter::checkAndUpdateFile(const QString &name,
-                                   const QString &extension,
-                                   const QString &date, const QString &size,
-                                   QDomElement &root) {
+void XMLWriter::writeInFile(const QString listName, const QString name,
+                            const QString extension, const QString date,
+                            const QString size) {
+    if (isFileExists(listName, name)) {
+        // qDebug() << "File already exists: " << name;
+        return;
+    }
+    QDomElement root = getRoot(listName, document);
+
+    int nextFileNumber = 1;
+    QDomNodeList files = root.elementsByTagName("file");
+    if (!files.isEmpty()) {
+        QDomElement lastFile = files.at(files.count() - 1).toElement();
+        nextFileNumber = lastFile.attribute("fileID").toInt() + 1;
+    }
+
+    QDomElement fileElem = document.createElement("file");
+    fileElem.setAttribute("fileID", QString::number(nextFileNumber));
+    fileElem.appendChild(createTextElement("name", name, document));
+    fileElem.appendChild(createTextElement("extension", extension, document));
+    fileElem.appendChild(createTextElement("date", date, document));
+    fileElem.appendChild(createTextElement("size", size, document));
+
+    root.appendChild(fileElem);
+    writeToFile(document);
+}
+
+QDomElement XMLWriter::createTextElement(const QString &tagName,
+                                         const QString &text,
+                                         QDomDocument &document) {
+    QDomElement element = document.createElement(tagName);
+    QDomText elementText = document.createTextNode(text);
+    element.appendChild(elementText);
+    return element;
+}
+
+bool XMLWriter::isFileExists(const QString &listName, const QString &fileName) {
+    QDomElement root = getRoot(listName, document);
     QDomNodeList files = root.elementsByTagName("file");
     for (int i = 0; i < files.count(); i++) {
         QDomElement fileElem = files.at(i).toElement();
-        if (fileElem.attribute("name") == name) {
-            if (fileElem.attribute("extension") != extension ||
-                fileElem.attribute("date") != date ||
-                fileElem.attribute("size") != size) {
-                fileElem.setAttribute("extension", extension);
-                fileElem.setAttribute("date", date);
-                fileElem.setAttribute("size", size);
+        QDomNodeList names = fileElem.elementsByTagName("name");
+        if (!names.isEmpty()) {
+            QDomElement nameElem = names.at(0).toElement();
+            if (nameElem.text() == fileName) {
+                return true;
             }
-            return true;
         }
     }
     return false;
 }
 
-void XMLWriter::writeInFile(const QString listName, const QString name,
-                            const QString extension, const QString date,
-                            const QString size) {
+XMLWriter::XMLWriter(const QString &fileName) : XMLParser(fileName) {
     openIfExist();
-
-    QDomDocument document;
-
     if (this->file.size() != 0) {
         document.setContent(&this->file);
     }
-
-    QDomElement root = getRoot(listName, document);
-
-    if (!checkAndUpdateFile(name, extension, date, size, root)) {
-        QDomElement fileElem =
-            createFileElement(name, extension, date, size, document);
-
-        root.appendChild(fileElem);
-    }
-
-    writeToFile(document);
 }
 
-XMLWriter::XMLWriter(const QString &fileName) : XMLParser(fileName) {}
+XMLWriter::~XMLWriter() {
+    if (this->file.isOpen()) {
+        this->file.close();
+    }
+}

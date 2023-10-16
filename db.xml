@@ -1,0 +1,722 @@
+<XMLDataBase>
+ <file fileID="1">
+  <name>dbghelp.dll</name>
+  <extension>.dll</extension>
+  <date>Sun Oct 15 21:56:32 2023</date>
+  <size>1039728</size>
+ </file>
+ <file fileID="2">
+  <name>Прочитай меня!.txt</name>
+  <extension>.txt</extension>
+  <date>Sun Oct 15 22:43:32 2023</date>
+  <size>686</size>
+ </file>
+ <file fileID="3">
+  <name>run.exe</name>
+  <extension>.exe</extension>
+  <date>Sun Oct 15 22:43:32 2023</date>
+  <size>7880192</size>
+ </file>
+ <file fileID="4">
+  <name>DivxDecoder.dll</name>
+  <extension>.dll</extension>
+  <date>Sun Oct 15 21:55:13 2023</date>
+  <size>413696</size>
+ </file>
+ <file fileID="5">
+  <name>Client.dll</name>
+  <extension>.dll</extension>
+  <date>Sun Oct 15 21:53:03 2023</date>
+  <size>206728</size>
+ </file>
+ <file fileID="6">
+  <name>Battle.net.dll</name>
+  <extension>.dll</extension>
+  <date>Sun Oct 15 21:53:03 2023</date>
+  <size>15588224</size>
+ </file>
+ <file fileID="7">
+  <name>unicows.dll</name>
+  <extension>.dll</extension>
+  <date>Sun Oct 15 22:43:32 2023</date>
+  <size>245408</size>
+ </file>
+ <file fileID="8">
+  <name>Scan.dll</name>
+  <extension>.dll</extension>
+  <date>Sun Oct 15 21:55:15 2023</date>
+  <size>49924</size>
+ </file>
+ <file fileID="9">
+  <name>ijl15.dll</name>
+  <extension>.dll</extension>
+  <date>Sun Oct 15 21:56:22 2023</date>
+  <size>372736</size>
+ </file>
+ <file fileID="10">
+  <name>msvcr80.dll</name>
+  <extension>.dll</extension>
+  <date>Sun Oct 15 21:57:42 2023</date>
+  <size>632656</size>
+ </file>
+ <file fileID="11">
+  <name>Config.wtf</name>
+  <extension>.wtf</extension>
+  <date>Sun Oct 15 23:08:21 2023</date>
+  <size>885</size>
+ </file>
+ <file fileID="12">
+  <name>patch-9.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:29:15 2023</date>
+  <size>247183112</size>
+ </file>
+ <file fileID="13">
+  <name>FrameXML.log</name>
+  <extension>.log</extension>
+  <date>Sun Oct 15 23:07:23 2023</date>
+  <size>1207</size>
+ </file>
+ <file fileID="14">
+  <name>SESound.log</name>
+  <extension>.log</extension>
+  <date>Sun Oct 15 23:08:21 2023</date>
+  <size>3411</size>
+ </file>
+ <file fileID="15">
+  <name>cpu.log</name>
+  <extension>.log</extension>
+  <date>Sun Oct 15 23:03:55 2023</date>
+  <size>459</size>
+ </file>
+ <file fileID="16">
+  <name>connection.log</name>
+  <extension>.log</extension>
+  <date>Sun Oct 15 23:07:30 2023</date>
+  <size>2155</size>
+ </file>
+ <file fileID="17">
+  <name>gx.log</name>
+  <extension>.log</extension>
+  <date>Sun Oct 15 23:08:21 2023</date>
+  <size>1670</size>
+ </file>
+ <file fileID="18">
+  <name>GlueXML.log</name>
+  <extension>.log</extension>
+  <date>Sun Oct 15 23:05:25 2023</date>
+  <size>438</size>
+ </file>
+ <file fileID="19">
+  <name>itemnamecache.wdb</name>
+  <extension>.wdb</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>32</size>
+ </file>
+ <file fileID="20">
+  <name>creaturecache.wdb</name>
+  <extension>.wdb</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>369682</size>
+ </file>
+ <file fileID="21">
+  <name>baddons.wcf</name>
+  <extension>.wcf</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>792</size>
+ </file>
+ <file fileID="22">
+  <name>npccache.wdb</name>
+  <extension>.wdb</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>32</size>
+ </file>
+ <file fileID="23">
+  <name>wowcache.wdb</name>
+  <extension>.wdb</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>44</size>
+ </file>
+ <file fileID="24">
+  <name>itemcache.wdb</name>
+  <extension>.wdb</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>5675037</size>
+ </file>
+ <file fileID="25">
+  <name>itemtextcache.wdb</name>
+  <extension>.wdb</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>36</size>
+ </file>
+ <file fileID="26">
+  <name>pagetextcache.wdb</name>
+  <extension>.wdb</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>32</size>
+ </file>
+ <file fileID="27">
+  <name>gameobjectcache.wdb</name>
+  <extension>.wdb</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>2162</size>
+ </file>
+ <file fileID="28">
+  <name>questcache.wdb</name>
+  <extension>.wdb</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>32</size>
+ </file>
+ <file fileID="29">
+  <name>SavedVariables.lua</name>
+  <extension>.lua</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>11301</size>
+ </file>
+ <file fileID="30">
+  <name>lichking.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:11:57 2023</date>
+  <size>65673</size>
+ </file>
+ <file fileID="31">
+  <name>patch-j.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:40:35 2023</date>
+  <size>140073526</size>
+ </file>
+ <file fileID="32">
+  <name>patch.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:40:07 2023</date>
+  <size>65673</size>
+ </file>
+ <file fileID="33">
+  <name>patch-a.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:30:24 2023</date>
+  <size>523382308</size>
+ </file>
+ <file fileID="34">
+  <name>patch-3.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:11:57 2023</date>
+  <size>65673</size>
+ </file>
+ <file fileID="35">
+  <name>patch-e.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:36:12 2023</date>
+  <size>410083473</size>
+ </file>
+ <file fileID="36">
+  <name>common.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:14:31 2023</date>
+  <size>10670139993</size>
+ </file>
+ <file fileID="37">
+  <name>patch-4.MPQ</name>
+  <extension>.MPQ</extension>
+  <date>Sun Oct 15 22:19:04 2023</date>
+  <size>2941965753</size>
+ </file>
+ <file fileID="38">
+  <name>patch-d.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:35:55 2023</date>
+  <size>1236367647</size>
+ </file>
+ <file fileID="39">
+  <name>patch-7.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:28:58 2023</date>
+  <size>318513287</size>
+ </file>
+ <file fileID="40">
+  <name>common-2.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 21:53:03 2023</date>
+  <size>65673</size>
+ </file>
+ <file fileID="41">
+  <name>patch-l.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:40:22 2023</date>
+  <size>16999399</size>
+ </file>
+ <file fileID="42">
+  <name>patch-h.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:39:01 2023</date>
+  <size>1304054432</size>
+ </file>
+ <file fileID="43">
+  <name>patch-b.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:30:25 2023</date>
+  <size>220326624</size>
+ </file>
+ <file fileID="44">
+  <name>patch-i.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:40:25 2023</date>
+  <size>1675862040</size>
+ </file>
+ <file fileID="45">
+  <name>patch-c.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:34:34 2023</date>
+  <size>2976202164</size>
+ </file>
+ <file fileID="46">
+  <name>patch-2.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:11:57 2023</date>
+  <size>65673</size>
+ </file>
+ <file fileID="47">
+  <name>patch-g.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:38:11 2023</date>
+  <size>243968177</size>
+ </file>
+ <file fileID="48">
+  <name>patch-5.MPQ</name>
+  <extension>.MPQ</extension>
+  <date>Sun Oct 15 22:23:12 2023</date>
+  <size>3348047555</size>
+ </file>
+ <file fileID="49">
+  <name>patch-8.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:29:04 2023</date>
+  <size>186756881</size>
+ </file>
+ <file fileID="50">
+  <name>expansion.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:11:57 2023</date>
+  <size>65673</size>
+ </file>
+ <file fileID="51">
+  <name>patch-f.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:37:53 2023</date>
+  <size>1325683378</size>
+ </file>
+ <file fileID="52">
+  <name>patch-6.MPQ</name>
+  <extension>.MPQ</extension>
+  <date>Sun Oct 15 22:28:38 2023</date>
+  <size>3975772938</size>
+ </file>
+ <file fileID="53">
+  <name>Blizzard_GMChatUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="54">
+  <name>config-cache.wtf</name>
+  <extension>.wtf</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>83</size>
+ </file>
+ <file fileID="55">
+  <name>cache.md5</name>
+  <extension>.md5</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>60</size>
+ </file>
+ <file fileID="56">
+  <name>Blizzard_Calendar.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="57">
+  <name>Blizzard_TokenUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="58">
+  <name>patch-ruRU-8.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:43:30 2023</date>
+  <size>205407480</size>
+ </file>
+ <file fileID="59">
+  <name>connection-help.html</name>
+  <extension>.html</extension>
+  <date>Sun Oct 15 22:40:07 2023</date>
+  <size>15558</size>
+ </file>
+ <file fileID="60">
+  <name>patch-ruRU-e.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:43:24 2023</date>
+  <size>40745678</size>
+ </file>
+ <file fileID="61">
+  <name>expansion-speech-ruRU.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:40:07 2023</date>
+  <size>65673</size>
+ </file>
+ <file fileID="62">
+  <name>realmlist.wtf</name>
+  <extension>.wtf</extension>
+  <date>Sun Oct 15 21:53:41 2023</date>
+  <size>36</size>
+ </file>
+ <file fileID="63">
+  <name>AccountBilling.url</name>
+  <extension>.url</extension>
+  <date>Sun Oct 15 22:40:07 2023</date>
+  <size>147</size>
+ </file>
+ <file fileID="64">
+  <name>patch-ruRU-j.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 21:53:41 2023</date>
+  <size>66267</size>
+ </file>
+ <file fileID="65">
+  <name>locale-ruRU.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:43:22 2023</date>
+  <size>1788907143</size>
+ </file>
+ <file fileID="66">
+  <name>lichking-speech-ruRU.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:40:07 2023</date>
+  <size>65673</size>
+ </file>
+ <file fileID="67">
+  <name>patch-ruRU.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 21:53:41 2023</date>
+  <size>65673</size>
+ </file>
+ <file fileID="68">
+  <name>patch-ruRU-c.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:43:33 2023</date>
+  <size>48322839</size>
+ </file>
+ <file fileID="69">
+  <name>lichking-locale-ruRU.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:40:07 2023</date>
+  <size>65673</size>
+ </file>
+ <file fileID="70">
+  <name>patch-ruRU-5.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:43:35 2023</date>
+  <size>827360625</size>
+ </file>
+ <file fileID="71">
+  <name>speech-ruRU.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 21:53:42 2023</date>
+  <size>65673</size>
+ </file>
+ <file fileID="72">
+  <name>termination.html</name>
+  <extension>.html</extension>
+  <date>Sun Oct 15 21:53:42 2023</date>
+  <size>4832</size>
+ </file>
+ <file fileID="73">
+  <name>patch-ruRU-f.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:43:40 2023</date>
+  <size>105387081</size>
+ </file>
+ <file fileID="74">
+  <name>patch-ruRU-k.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 21:53:41 2023</date>
+  <size>95841</size>
+ </file>
+ <file fileID="75">
+  <name>patch-ruRU-b.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:43:39 2023</date>
+  <size>115121291</size>
+ </file>
+ <file fileID="76">
+  <name>patch-ruRU-a.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:43:31 2023</date>
+  <size>56507455</size>
+ </file>
+ <file fileID="77">
+  <name>patch-ruRU-7.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:43:23 2023</date>
+  <size>494140247</size>
+ </file>
+ <file fileID="78">
+  <name>eula.html</name>
+  <extension>.html</extension>
+  <date>Sun Oct 15 22:40:07 2023</date>
+  <size>46500</size>
+ </file>
+ <file fileID="79">
+  <name>locale-ruRU-3.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:40:07 2023</date>
+  <size>65673</size>
+ </file>
+ <file fileID="80">
+  <name>r</name>
+  <extension></extension>
+  <date>Sun Oct 15 21:53:41 2023</date>
+  <size>32</size>
+ </file>
+ <file fileID="81">
+  <name>patch-ruRU-d.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:43:29 2023</date>
+  <size>38845767</size>
+ </file>
+ <file fileID="82">
+  <name>tos.html</name>
+  <extension>.html</extension>
+  <date>Sun Oct 15 21:53:42 2023</date>
+  <size>87009</size>
+ </file>
+ <file fileID="83">
+  <name>Credits_BC.html</name>
+  <extension>.html</extension>
+  <date>Sun Oct 15 22:40:07 2023</date>
+  <size>48628</size>
+ </file>
+ <file fileID="84">
+  <name>Credits.html</name>
+  <extension>.html</extension>
+  <date>Sun Oct 15 22:40:07 2023</date>
+  <size>33084</size>
+ </file>
+ <file fileID="85">
+  <name>Credits_LK.html</name>
+  <extension>.html</extension>
+  <date>Sun Oct 15 22:40:07 2023</date>
+  <size>84291</size>
+ </file>
+ <file fileID="86">
+  <name>patch-ruRU-i.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:43:47 2023</date>
+  <size>11532870</size>
+ </file>
+ <file fileID="87">
+  <name>expansion-locale-ruRU.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:40:07 2023</date>
+  <size>65673</size>
+ </file>
+ <file fileID="88">
+  <name>locale-ruRU-2.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:40:07 2023</date>
+  <size>65673</size>
+ </file>
+ <file fileID="89">
+  <name>TechSupport.url</name>
+  <extension>.url</extension>
+  <date>Sun Oct 15 22:40:07 2023</date>
+  <size>147</size>
+ </file>
+ <file fileID="90">
+  <name>patch-ruRU-4.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:19:33 2023</date>
+  <size>38252101</size>
+ </file>
+ <file fileID="91">
+  <name>patch-ruRU-6.mpq</name>
+  <extension>.mpq</extension>
+  <date>Sun Oct 15 22:42:50 2023</date>
+  <size>86091805</size>
+ </file>
+ <file fileID="92">
+  <name>9a211512cc67114a.toc</name>
+  <extension>.toc</extension>
+  <date>Sun Oct 15 23:08:09 2023</date>
+  <size>5000</size>
+ </file>
+ <file fileID="93">
+  <name>9a211512cc67114a.bin</name>
+  <extension>.bin</extension>
+  <date>Sun Oct 15 23:08:09 2023</date>
+  <size>1039353</size>
+ </file>
+ <file fileID="94">
+  <name>92f74448a56b9fe6.toc</name>
+  <extension>.toc</extension>
+  <date>Sun Oct 15 23:03:50 2023</date>
+  <size>32</size>
+ </file>
+ <file fileID="95">
+  <name>92f74448a56b9fe6.bin</name>
+  <extension>.bin</extension>
+  <date>Sun Oct 15 23:03:50 2023</date>
+  <size>32</size>
+ </file>
+ <file fileID="96">
+  <name>Blizzard_CombatLog.lua</name>
+  <extension>.lua</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>25644</size>
+ </file>
+ <file fileID="97">
+  <name>Blizzard_AuctionUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="98">
+  <name>Blizzard_TalentUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="99">
+  <name>layout-local.txt</name>
+  <extension>.txt</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>11</size>
+ </file>
+ <file fileID="100">
+  <name>AddOns.txt</name>
+  <extension>.txt</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>28</size>
+ </file>
+ <file fileID="101">
+  <name>chat-cache.txt</name>
+  <extension>.txt</extension>
+  <date>Sun Oct 15 23:08:20 2023</date>
+  <size>3775</size>
+ </file>
+ <file fileID="102">
+  <name>Blizzard_MacroUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="103">
+  <name>Blizzard_InspectUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="104">
+  <name>Blizzard_CombatLog.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="105">
+  <name>Blizzard_BindingUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="106">
+  <name>Blizzard_RaidUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="107">
+  <name>Blizzard_BattlefieldMinimap.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="108">
+  <name>Blizzard_DebugTools.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="109">
+  <name>Blizzard_GMSurveyUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="110">
+  <name>Blizzard_GlyphUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="111">
+  <name>Blizzard_TimeManager.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="112">
+  <name>Blizzard_ArenaUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="113">
+  <name>Blizzard_ItemSocketingUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="114">
+  <name>Blizzard_BarbershopUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="115">
+  <name>Blizzard_TrainerUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="116">
+  <name>Blizzard_AchievementUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="117">
+  <name>Blizzard_GuildBankUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="118">
+  <name>Blizzard_CombatText.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="119">
+  <name>Blizzard_TradeSkillUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+ <file fileID="120">
+  <name>Blizzard_VehicleUI.pub</name>
+  <extension>.pub</extension>
+  <date>Sun Oct 15 23:04:35 2023</date>
+  <size>257</size>
+ </file>
+</XMLDataBase>

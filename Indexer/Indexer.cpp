@@ -6,8 +6,6 @@
 #include <thread>
 #include <vector>
 
-#include "XMLWriter.h"
-
 void Indexer::startIndexing() {
     const unsigned int maxThreads = std::thread::hardware_concurrency() - 1;
 
@@ -38,7 +36,7 @@ std::time_t convertToTimeT(const std::filesystem::directory_entry& entry) {
 
 QString convertTime(const std::filesystem::directory_entry& entry) {
     std::time_t cftime = convertToTimeT(entry);
-    return QString::fromStdString(std::ctime(&cftime));
+    return QString::fromStdString(std::ctime(&cftime)).trimmed();
 }
 
 void Indexer::writeInXml(const std::filesystem::directory_entry& entry) {
@@ -50,8 +48,6 @@ void Indexer::writeInXml(const std::filesystem::directory_entry& entry) {
     QString date = convertTime(entry);
 
     QString size = QString::number(std::filesystem::file_size(entry.path()));
-    XMLWriter wr("../test.xml");
-
     wr.writeInFile("XMLDataBase", name, extension, date, size);
 }
 
@@ -96,7 +92,6 @@ void Indexer::indexInDirAndSubdir(const std::string startDirectory) {
                     std::unique_lock<std::mutex> lock(queueMutex);
 
                     this->directoryQueue.push(entry.path());
-
                     this->queueCV.notify_one();
                 }
             } else if (entry.is_regular_file()) {
@@ -131,8 +126,9 @@ void Indexer::processDirecory() {
                     queueCV.wait(lock);
                 }
             } else {
-                currentDirectory = directoryQueue.front();
+                currentDirectory = this->directoryQueue.front();
                 this->directoryQueue.pop();
+                std::cout << "Current: " << currentDirectory << std::endl;
             }
         }
         if (!currentDirectory.empty()) {
@@ -164,6 +160,10 @@ void Indexer::indexFilesBaseOnScope(const std::string currentDirectory) {
 }
 
 Indexer::Indexer(std::string startDirectory)
-    : activeThreads(0), isIndexingInCurrentDir(true) {
+    : activeThreads(0),
+      isIndexingInCurrentDir(false),
+      directoryQueue(std::queue<std::filesystem::path>()),
+      xmlPath("db.xml"),
+      wr("../" + xmlPath) {
     this->directoryQueue.push(startDirectory);
 }
