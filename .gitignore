@@ -73,4 +73,3 @@ _deps
 # other
 /build
 .clang-format
-/XMLReader

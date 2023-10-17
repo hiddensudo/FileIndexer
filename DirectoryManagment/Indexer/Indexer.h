@@ -10,7 +10,8 @@
 
 #include "XMLWriter.h"
 
-class Indexer {
+class Indexer : public QObject {
+    Q_OBJECT
 private:
     QString xmlPath;
     std::string startDirectory;
@@ -18,22 +19,27 @@ private:
     std::atomic<bool> isIndexingInCurrentDir;
 
     std::queue<std::filesystem::path> directoryQueue;
-    std::mutex queueMutex;
+    std::mutex indexMutex;
     std::condition_variable queueCV;
 
     bool toggleIndexingScope();
-    void indexFilesBaseOnScope(const std::string currenctDirectory);
-    void indexInDirAndSubdir(const std::string startDirectory);
-    void indexInCurrentDir(const std::string startDirectory);
-    void processDirecory();
+    void indexFiles(const std::string startDirectory);
+    void processDirectory();
 
-    void writeInXml(const std::filesystem::directory_entry& entry);
+    void copyQueue(std::queue<std::filesystem::path> &directoryQueue);
+
+    void writeInXml(const std::filesystem::directory_entry &entry);
     XMLWriter wr;
+
+    void processAll();
+    void processDirectory(std::string &currentDirectory);
+    void processQueue(std::string &currentDirectory);
 
 public:
     Indexer(std::string startDirectory);
     ~Indexer() = default;
 
+public slots:
     void startIndexing();
 };
 #endif  // INDEXER_H

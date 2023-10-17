@@ -1,7 +1,6 @@
-#include "Indexer.cpp"
+#include "MyApp.h" 
 
-int main() {
-    Indexer ind("/home/hidden/");
-    ind.startIndexing();
-    return 0;
+int main(int argc, char *argv[]) {
+    MyApp app(argc, argv);
+    return app.run();
 }
