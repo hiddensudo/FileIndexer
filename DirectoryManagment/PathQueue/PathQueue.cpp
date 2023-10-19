@@ -1,9 +1,23 @@
 #include "PathQueue.h"
 
+#include <Indexer.h>
+
+#include <QtConcurrent/QtConcurrent>
+#include <cstdlib>
 #include <iostream>
 #include <thread>
 
-void PathQueue::fillQueue(std::queue<std::filesystem::path>& queue) {
+void PathQueue::detachRun() {
+    QtConcurrent::run([this] { fillAndIndexQueue(); });
+}
+
+void PathQueue::fillAndIndexQueue() {
+    fillQueue();
+    Indexer indexer(this->pathQueue);
+    indexer.startIndexing();
+}
+
+void PathQueue::fillQueue() {
     const unsigned int maxThreads = std::thread::hardware_concurrency() - 1;
 
     std::vector<std::thread> threads;
@@ -16,11 +30,15 @@ void PathQueue::fillQueue(std::queue<std::filesystem::path>& queue) {
     for (auto& thread : threads) {
         thread.join();
     }
+
     std::cout << pathQueue.size() << std::endl;
-    queue = this->pathQueue;
 }
 
-void PathQueue::addDirAndSubdir(std::string& currentDirectory) {
+std::queue<std::filesystem::path> PathQueue::getQueue() const {
+    return this->pathQueue;
+}
+
+void PathQueue::addDirAndSubdir(std::string currentDirectory) {
     try {
         if (!std::filesystem::exists(currentDirectory)) {
             std::cout << "Directory does not exist: " << currentDirectory
@@ -30,21 +48,20 @@ void PathQueue::addDirAndSubdir(std::string& currentDirectory) {
         for (const auto& entry :
              std::filesystem::directory_iterator(currentDirectory)) {
             if (entry.path() != "/proc" && entry.is_directory()) {
-                {
-                    std::unique_lock<std::mutex> lock(this->queueMutex);
-                    this->processingQueue.push(entry.path());
+                std::unique_lock<std::mutex> lock(this->queueMutex);
+                
+                this->processingQueue.push(entry.path());
 
-                    this->pathQueue.push(entry.path());
+                this->pathQueue.push(entry.path());
 
-                    this->queueCV.notify_one();
-                }
+                this->queueCV.notify_one();
+                lock.unlock();
             }
         }
     } catch (const std::filesystem::filesystem_error& e) {
-        {
-            std::unique_lock<std::mutex> lock(this->queueMutex);
-            std::cout << e.what() << std::endl;
-        }
+        std::unique_lock<std::mutex> lock(this->queueMutex);
+        std::cout << e.what() << std::endl;
+        lock.unlock();
     }
 }
 
@@ -71,33 +88,30 @@ void PathQueue::processQueue(std::string& currentDirectory) {
     } else {
         currentDirectory = this->processingQueue.front();
         this->processingQueue.pop();
-        std::cout << "Current PQ: " << currentDirectory << std::endl;
     }
 
     lock.unlock();
 }
 
-void PathQueue::processDirectory(std::string& currentDirectory) {
+void PathQueue::processDirectory(std::string currentDirectory) {
     if (!currentDirectory.empty()) {
         this->activeThreads++;
-
         processFilesBaseOnScope(currentDirectory);
 
         this->activeThreads--;
 
-        {
-            std::unique_lock<std::mutex> lock(this->queueMutex);
-            if (this->activeThreads == 0 && this->processingQueue.empty()) {
-                queueCV.notify_all();
-                return;
-            } else {
-                queueCV.notify_one();
-            }
+        std::unique_lock<std::mutex> lock(this->queueMutex);
+        if (this->activeThreads == 0 && this->processingQueue.empty()) {
+            queueCV.notify_all();
+            return;
+        } else {
+            queueCV.notify_one();
         }
+        lock.unlock();
     }
 }
 
-void PathQueue::processFilesBaseOnScope(std::string& currentDirectory) {
+void PathQueue::processFilesBaseOnScope(std::string currentDirectory) {
     if (!this->isProcessingInCurrentDir) {
         addDirAndSubdir(currentDirectory);
     } else {
@@ -105,10 +119,7 @@ void PathQueue::processFilesBaseOnScope(std::string& currentDirectory) {
     }
 }
 
-PathQueue::PathQueue(std::string startDirectory)
-    : activeThreads(0),
-      isProcessingInCurrentDir(false),
-      processingQueue(std::queue<std::filesystem::path>()),
-      pathQueue(std::queue<std::filesystem::path>()) {
+PathQueue::PathQueue(std::string startDirectory, bool isProcessingInCurrentDir)
+    : activeThreads(0), isProcessingInCurrentDir(isProcessingInCurrentDir) {
     this->processingQueue.push(startDirectory);
 }

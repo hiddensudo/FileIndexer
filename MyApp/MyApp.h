@@ -6,23 +6,18 @@
 #include <QQmlContext>
 #include <QtConcurrent/QtConcurrent>
 
-#include "Indexer.h"
+#include "PathQueue.h"
 
 class MyApp : public QGuiApplication {
 private:
     QQmlApplicationEngine engine;
-    Indexer indexer;
+    PathQueue pathQueue;
 
     void setupAttributes();
     void setupEngine();
     void setupConnections();
 public:
-    MyApp(int &argc, char **argv)
-        : QGuiApplication(argc, argv), indexer("/home/hidden") {
-       setupAttributes();
-       setupEngine();
-       setupConnections();
-    }
+    MyApp(int &argc, char **argv);
 
     int run() { return exec(); }
 };

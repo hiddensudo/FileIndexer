@@ -14,7 +14,8 @@ class Indexer : public QObject {
     Q_OBJECT
 private:
     QString xmlPath;
-    std::string startDirectory;
+    XMLWriter wr;
+
     std::atomic<unsigned int> activeThreads;
     std::atomic<bool> isIndexingInCurrentDir;
 
@@ -26,17 +27,15 @@ private:
     void indexFiles(const std::string startDirectory);
     void processDirectory();
 
-    void copyQueue(std::queue<std::filesystem::path> &directoryQueue);
 
     void writeInXml(const std::filesystem::directory_entry &entry);
-    XMLWriter wr;
 
     void processAll();
     void processDirectory(std::string &currentDirectory);
     void processQueue(std::string &currentDirectory);
 
 public:
-    Indexer(std::string startDirectory);
+    Indexer(std::queue<std::filesystem::path> queue);
     ~Indexer() = default;
 
 public slots:

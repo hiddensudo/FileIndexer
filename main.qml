@@ -1,5 +1,5 @@
 import QtQuick 2.12
-import QtQuick.Controls 2.15  // Додайте імпорт контролів
+import QtQuick.Controls 2.15 
 
 Window {
     visible: true
@@ -11,7 +11,7 @@ Window {
         text: "Почати індексацію"
         anchors.centerIn: parent
         onClicked: {
-            indexer.startIndexing();
+            pathQueue.detachRun();
         }
     }
 }

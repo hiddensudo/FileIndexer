@@ -1,5 +1,6 @@
 #include "Indexer.h"
 
+#include <QtConcurrent/QtConcurrent>
 #include <chrono>
 #include <format>
 #include <iostream>
@@ -9,7 +10,6 @@
 #include "PathQueue.h"
 
 void Indexer::startIndexing() {
-    copyQueue(this->directoryQueue);
     const unsigned int maxThreads = std::thread::hardware_concurrency() - 1;
 
     std::vector<std::thread> threads;
@@ -20,13 +20,10 @@ void Indexer::startIndexing() {
     }
 
     for (auto& thread : threads) {
-        thread.detach();
+        thread.join();
     }
-}
 
-void Indexer::copyQueue(std::queue<std::filesystem::path>& directoryQueue) {
-    PathQueue q(this->startDirectory);
-    q.fillQueue(directoryQueue);
+    qDebug() << "Indexing done";
 }
 
 std::time_t convertToTimeT(const std::filesystem::directory_entry& entry) {
@@ -143,12 +140,10 @@ bool Indexer::toggleIndexingScope() {
     return this->isIndexingInCurrentDir = !this->isIndexingInCurrentDir;
 }
 
-Indexer::Indexer(std::string startDirectory)
+Indexer::Indexer(std::queue<std::filesystem::path> queue)
     : activeThreads(0),
-      startDirectory(startDirectory),
       isIndexingInCurrentDir(true),
-      directoryQueue(std::queue<std::filesystem::path>()),
       xmlPath("db.xml"),
       wr("../" + xmlPath) {
-    this->directoryQueue.push(startDirectory);
+        this->directoryQueue = queue;
 }
