@@ -2,14 +2,14 @@
 #define XMLWriter_H
 
 #include <QDomElement>
+#include <QFile>
 
-#include "XMLParser.h"
-
-class XMLWriter : public XMLParser {
+class XMLWriter {
 private:
     QDomDocument document;
+    QFile file;
 
-    void openFile() override;
+    void openFile();
     void openIfExist();
 
     QDomElement getRoot(const QString &listName, QDomDocument &document);

@@ -8,10 +8,43 @@ Window {
     title: qsTr("Hello World")
 
     Button {
-        text: "Почати індексацію"
-        anchors.centerIn: parent
+        id: startButton
+        text: "Start Indexing"
+        anchors.left: parent.left
+        anchors.top: parent.top
+        anchors.margins: 10
         onClicked: {
-            pathQueue.detachRun();
+            indexer.detachRun();
+        }
+    }
+
+    Button {
+        id: pauseResumeButton
+        text: "Pause"
+        anchors.left: parent.left
+        anchors.top: startButton.bottom
+        anchors.margins: 10
+        property bool isPaused: false
+        onClicked: {
+            if (isPaused) {
+                indexer.resume();
+                text = "Pause";
+            } else {
+                indexer.pause();
+                text = "Resume";
+            }
+            isPaused = !isPaused;
+        }
+    }
+
+    Button {
+        id: stopButton
+        text: "Stop"
+        anchors.left: parent.left
+        anchors.top: pauseResumeButton.bottom
+        anchors.margins: 10
+        onClicked: {
+            indexer.stop();
         }
     }
 }

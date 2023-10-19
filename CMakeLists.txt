@@ -10,20 +10,17 @@ set(CMAKE_AUTOUIC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Core Xml Quick)
 
-include_directories(${PROJECT_SOURCE_DIR}/DirectoryManagment/Indexer
-                    ${PROJECT_SOURCE_DIR}/DirectoryManagment/PathQueue
+include_directories(${PROJECT_SOURCE_DIR}/Indexer
                     ${PROJECT_SOURCE_DIR}/MyApp
-                    ${PROJECT_SOURCE_DIR}/XML/XMLParser
                     ${PROJECT_SOURCE_DIR}/XML/XMLWriter
-                    ${PROJECT_SOURCE_DIR}/XML/XMLReader)
+                    ${PROJECT_SOURCE_DIR}/XML/XMLParser)
 
 add_executable(main 
     main.cpp
     MyApp/MyApp.cpp
-    XML/XMLParser/XMLParser.cpp
     XML/XMLWriter/XMLWriter.cpp
-    DirectoryManagment/PathQueue/PathQueue.cpp
-    DirectoryManagment/Indexer/Indexer.cpp
+    XML/XMLParser/XMLParser.cpp
+    Indexer/Indexer.cpp
     qml.qrc
 )
 

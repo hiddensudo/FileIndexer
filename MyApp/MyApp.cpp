@@ -6,7 +6,7 @@ void MyApp::setupAttributes() {
 
 void MyApp::setupEngine() {
     const QUrl url(QStringLiteral("qrc:/main.qml"));
-    engine.rootContext()->setContextProperty("pathQueue", &pathQueue);
+    engine.rootContext()->setContextProperty("indexer", &indexer);
     engine.load(url);
 }
 
@@ -22,7 +22,7 @@ void MyApp::setupConnections() {
 
 MyApp::MyApp(int &argc, char **argv)
     : QGuiApplication(argc, argv),
-      pathQueue("/home/hidden", true) {
+      indexer("/home/hidden", false) {
     setupAttributes();
     setupEngine();
     setupConnections();

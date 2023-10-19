@@ -91,7 +91,7 @@ bool XMLWriter::isFileExists(const QString &listName, const QString &fileName) {
     return false;
 }
 
-XMLWriter::XMLWriter(const QString &fileName) : XMLParser(fileName) {
+XMLWriter::XMLWriter(const QString &fileName) : file(fileName) {
     openIfExist();
     if (this->file.size() != 0) {
         document.setContent(&this->file);
