@@ -28,6 +28,7 @@ private:
 public:
     XMLWriter(const QString &fileName);
     ~XMLWriter();
+    void close();
     void writeInFile(const QString listName, const QString name,
                      const QString extension, const QString date,
                      const QString size);

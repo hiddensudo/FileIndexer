@@ -4,8 +4,10 @@
 #include <iostream>
 #include <thread>
 
-void Indexer::detachRun() {
-    if(!this->isStarted) {
+void Indexer::detachRun(QString startDirectory, bool isProcessingInCurrentDir) {
+    if (!this->isStarted) {
+        this->startDirectory = startDirectory.toStdString();
+        this->isProcessingInCurrentDir = isProcessingInCurrentDir;
         QtConcurrent::run([this] { startIndexing(); });
     } else {
         qDebug() << "Already started";
@@ -16,6 +18,7 @@ void Indexer::startIndexing() {
     refresh();
     qDebug() << "Started";
     this->isStarted = true;
+    emit isStartedChanged();
     const unsigned int maxThreads = std::thread::hardware_concurrency() - 1;
 
     std::vector<std::thread> threads;
@@ -25,27 +28,20 @@ void Indexer::startIndexing() {
         threads.emplace_back(&Indexer::processAll, this);
     }
 
-    while (!this->isCancelled) {
-        std::this_thread::sleep_for(std::chrono::milliseconds(100));
-
-        if (this->isCancelled) {
-            break; 
-        }
-    }
-
     for (auto& thread : threads) {
         thread.join();
     }
 
+    this->isCancelled = true;
+    emit isCancelledChanged();
+    this->isStarted = false;
     qDebug() << "Indexing done";
-
-    isStarted = false;
 }
 
 void Indexer::refresh() {
     this->isCancelled = false;
     this->isPaused = false;
-    while (this->processingQueue.empty()) {
+    while (!this->processingQueue.empty()) {
         processingQueue.pop();
     }
     this->processingQueue.push(this->startDirectory);
@@ -53,44 +49,54 @@ void Indexer::refresh() {
 }
 
 void Indexer::pause() {
-    if(this->isStarted) {
-        this->isPaused.store(true, std::memory_order_relaxed);
-        qDebug() << "Paused";
+    if (this->isStarted && !this->isPaused) {
+        this->isPaused = true;
+        qDebug() << "Paused" << isPaused;
+        emit isPausedChanged();
     } else {
         qDebug() << "Indexing was not started, cannot pause";
     }
 }
 
 void Indexer::resume() {
-    if (this->isStarted) {
-        this->isPaused.store(false, std::memory_order_relaxed);
-        qDebug() << "Resumed";
+    if (this->isStarted && this->isPaused) {
+        this->isPaused = false;
+        qDebug() << "Paused" << isPaused;
+        emit isPausedChanged();
     } else {
         qDebug() << "Indexing was not started, cannot resume";
     }
 }
 
 void Indexer::stop() {
-    if (this->isStarted) {
+    if (this->isStarted && !this->isCancelled) {
         this->isCancelled.store(true, std::memory_order_relaxed);
+        emit isCancelledChanged();
         qDebug() << "Stoped";
     } else {
         qDebug() << "Indexing was not started, cannot stop";
     }
 }
 
-std::time_t convertToTimeT(const std::filesystem::directory_entry& entry) {
-    auto fileTime = std::filesystem::last_write_time(entry.path());
-    auto systemTime =
+bool Indexer::getIsStarted() const { return isStarted; }
+bool Indexer::getIsPaused() const { return isPaused; }
+bool Indexer::getIsCancelled() const { return isCancelled; }
+
+QString convertTime(const std::filesystem::directory_entry& entry) {
+    std::filesystem::file_time_type fileTime =
+        std::filesystem::last_write_time(entry);
+
+    auto sctp =
         std::chrono::time_point_cast<std::chrono::system_clock::duration>(
             fileTime - std::filesystem::file_time_type::clock::now() +
             std::chrono::system_clock::now());
-    return std::chrono::system_clock::to_time_t(systemTime);
-}
 
-QString convertTime(const std::filesystem::directory_entry& entry) {
-    std::time_t cftime = convertToTimeT(entry);
-    return QString::fromStdString(std::ctime(&cftime)).trimmed();
+    std::time_t systemTime = std::chrono::system_clock::to_time_t(sctp);
+
+    std::stringstream ss;
+    ss << std::put_time(std::localtime(&systemTime), "%F %T");
+
+    return QString::fromStdString(ss.str());
 }
 
 void Indexer::writeInXml(const std::filesystem::directory_entry& entry) {
@@ -148,14 +154,16 @@ void Indexer::indexInDirAndSubDir(std::string currentDirectory) {
 
 void Indexer::indexInCurrentDir(const std::string currentDirectory) {
     try {
-        if (!isDirectoryExistst) {
+        if (!std::filesystem::exists(currentDirectory)) {
+            std::cout << "Directory does not exist: " << currentDirectory
+                      << std::endl;
             return;
         }
         for (const auto& entry :
              std::filesystem::directory_iterator(currentDirectory)) {
             if (entry.is_regular_file()) {
                 {
-                    std::unique_lock<std::mutex> lock(this->indexMutex);
+                    std::unique_lock<std::mutex> lock(queueMutex);
 
                     writeInXml(entry);
 
@@ -163,16 +171,18 @@ void Indexer::indexInCurrentDir(const std::string currentDirectory) {
                 }
             }
         }
+        stop();
     } catch (const std::filesystem::filesystem_error& e) {
         {
-            std::unique_lock<std::mutex> lock(this->indexMutex);
-            qDebug() << e.what();
+            std::unique_lock<std::mutex> lock(queueMutex);
+            std::cout << e.what() << std::endl;
         }
     }
 }
 
 void Indexer::processAll() {
     while (!(this->processingQueue.empty() && this->activeThreads == 0)) {
+        qDebug() << this->processingQueue.size();
         std::string currentDirectory;
 
         if (this->isCancelled) {
@@ -224,24 +234,23 @@ void Indexer::processDirectory(std::string currentDirectory) {
                 queueCV.notify_one();
             }
         }
+        qDebug() << this->activeThreads;
     }
 }
 
 void Indexer::processFilesBaseOnScope(std::string currentDirectory) {
-    if (!this->isProcessingInCurrentDir) {
-        indexInDirAndSubDir(currentDirectory);
+    if (this->isProcessingInCurrentDir) {
+        indexInCurrentDir(currentDirectory);
     } else {
-        this->processingQueue.push(currentDirectory);
+        indexInDirAndSubDir(currentDirectory);
     }
 }
 
-Indexer::Indexer(std::string startDirectory, bool isProcessingInCurrentDir)
+Indexer::Indexer()
     : activeThreads(0),
-      isProcessingInCurrentDir(isProcessingInCurrentDir),
+      isProcessingInCurrentDir(true),
       xmlPath("db.xml"),
       wr("../" + xmlPath),
       isPaused(false),
       isCancelled(false),
-      isStarted(false) {
-    this->processingQueue.push(startDirectory);
-}
+      isStarted(false) {}

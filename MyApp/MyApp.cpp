@@ -5,7 +5,7 @@ void MyApp::setupAttributes() {
 }
 
 void MyApp::setupEngine() {
-    const QUrl url(QStringLiteral("qrc:/main.qml"));
+    const QUrl url(QStringLiteral("qrc:/UI/main.qml"));
     engine.rootContext()->setContextProperty("indexer", &indexer);
     engine.load(url);
 }
@@ -21,8 +21,7 @@ void MyApp::setupConnections() {
 }
 
 MyApp::MyApp(int &argc, char **argv)
-    : QGuiApplication(argc, argv),
-      indexer("/home/hidden", false) {
+    : QGuiApplication(argc, argv) {
     setupAttributes();
     setupEngine();
     setupConnections();

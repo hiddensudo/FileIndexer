@@ -1,8 +1,9 @@
 #ifndef PATHQUEUE_H
 #define PATHQUEUE_H
 
-#include <QObject>
 #include <XMLWriter.h>
+
+#include <QObject>
 #include <atomic>
 #include <condition_variable>
 #include <filesystem>
@@ -12,6 +13,9 @@
 
 class Indexer : public QObject {
     Q_OBJECT
+    Q_PROPERTY(bool isStarted READ getIsStarted NOTIFY isStartedChanged)
+    Q_PROPERTY(bool isPaused READ getIsPaused NOTIFY isPausedChanged)
+    Q_PROPERTY(bool isCancelled READ getIsCancelled NOTIFY isCancelledChanged)
 private:
     QString xmlPath;
     XMLWriter wr;
@@ -45,16 +49,26 @@ private:
     bool toggleIndexingScope();
 
     void refresh();
-
-public:
-    Indexer(std::string startDirectory, bool isProcessingInCurrentDir);
-    ~Indexer() = default;
-
-    void fillAndIndexQueue();
     void startIndexing();
 
+public:
+    Indexer();
+    ~Indexer() = default;
+
+    Q_INVOKABLE void detachRun(QString startDirectory,
+                               bool isProcessingInCurrentDir);
+
+    bool getIsStarted() const;
+    bool getIsPaused() const;
+    bool getIsCancelled() const;
+
+signals:
+    void isStartedChanged();
+    void isPausedChanged();
+    void isCancelledChanged();
+
 public slots:
-    void detachRun();
+
     void pause();
     void resume();
     void stop();

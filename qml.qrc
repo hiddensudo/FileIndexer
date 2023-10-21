@@ -1,5 +1,9 @@
 <RCC>
     <qresource prefix="/">
-        <file>main.qml</file>
+        <file>UI/main.qml</file>
+        <file>UI/ButtonRow.qml</file>
+        <file>UI/FileListView.qml</file>
+        <file>UI/IndexInput.qml</file>
+        <file>UI/ExtentionChooser.qml</file>
     </qresource>
 </RCC>

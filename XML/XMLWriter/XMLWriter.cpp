@@ -98,8 +98,12 @@ XMLWriter::XMLWriter(const QString &fileName) : file(fileName) {
     }
 }
 
-XMLWriter::~XMLWriter() {
+void XMLWriter::close() {
     if (this->file.isOpen()) {
         this->file.close();
     }
+}
+
+XMLWriter::~XMLWriter() {
+    close();
 }
