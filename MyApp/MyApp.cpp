@@ -5,8 +5,14 @@ void MyApp::setupAttributes() {
 }
 
 void MyApp::setupEngine() {
-    const QUrl url(QStringLiteral("qrc:/UI/main.qml"));
     engine.rootContext()->setContextProperty("indexer", &indexer);
+    engine.rootContext()->setContextProperty("fillModel", &fillModel);
+
+    fillModel.parseXML();
+
+    engine.rootContext()->setContextProperty("myModel", fillModel.getModel());
+
+    const QUrl url(QStringLiteral("qrc:/UI/main.qml"));
     engine.load(url);
 }
 

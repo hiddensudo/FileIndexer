@@ -129,19 +129,29 @@ void Indexer::indexInDirAndSubDir(std::string currentDirectory) {
              std::filesystem::directory_iterator(currentDirectory)) {
             if (entry.path() != "/proc" && entry.is_directory()) {
                 {
-                    std::unique_lock<std::mutex> lock(this->queueMutex);
+                    if (this->isCancelled) {
+                        return;
+                    } else {
+                        {
+                            std::unique_lock<std::mutex> lock(this->queueMutex);
 
-                    this->processingQueue.push(entry.path());
+                            this->processingQueue.push(entry.path());
 
-                    this->queueCV.notify_one();
+                            this->queueCV.notify_one();
+                        }
+                    }
                 }
             } else if (entry.is_regular_file()) {
-                {
-                    std::unique_lock<std::mutex> lock(this->indexMutex);
+                if (this->isCancelled) {
+                    return;
+                } else {
+                    {
+                        std::unique_lock<std::mutex> lock(this->indexMutex);
 
-                    writeInXml(entry);
+                        writeInXml(entry);
 
-                    this->queueCV.notify_one();
+                        this->queueCV.notify_one();
+                    }
                 }
             }
         }
@@ -182,7 +192,6 @@ void Indexer::indexInCurrentDir(const std::string currentDirectory) {
 
 void Indexer::processAll() {
     while (!(this->processingQueue.empty() && this->activeThreads == 0)) {
-        qDebug() << this->processingQueue.size();
         std::string currentDirectory;
 
         if (this->isCancelled) {
@@ -192,11 +201,11 @@ void Indexer::processAll() {
         if (this->isPaused) {
             std::this_thread::sleep_for(std::chrono::milliseconds(100));
             continue;
+        } else {
+            processQueue(currentDirectory);
+
+            processDirectory(currentDirectory);
         }
-
-        processQueue(currentDirectory);
-
-        processDirectory(currentDirectory);
     }
 }
 

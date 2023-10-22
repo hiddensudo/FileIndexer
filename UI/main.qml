@@ -52,6 +52,10 @@ ApplicationWindow {
                     sharedContext: sharedContext
                 }
 
+                ButtonRow {
+                    sharedContext: sharedContext
+                }
+
                 Rectangle {
                     id: extension
 
@@ -69,13 +73,8 @@ ApplicationWindow {
                     height: 25
                 }
 
-                Rectangle {
-                    width: parent.width
-                    height: 25
-                }
-
-                ButtonRow {
-                    sharedContext: sharedContext
+                SearchBar {
+                    height: 100
                 }
 
             }
@@ -85,7 +84,12 @@ ApplicationWindow {
         Rectangle {
             width: parent.width
             height: parent.height
-            color: "green"
+            color: "#dbd9d9"
+
+            FilesTableView {
+                model: myModel
+            }
+
         }
 
     }

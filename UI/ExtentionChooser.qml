@@ -7,4 +7,6 @@ ComboBox {
     width: parent.width - 20
     height: 25
     model: ["All", ".txt", ".cpp", ".h", ".html"]
+
+    onCurrentTextChanged: fillModel.filterByExtension(comboBox.currentText)
 }

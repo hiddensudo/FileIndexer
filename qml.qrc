@@ -2,8 +2,9 @@
     <qresource prefix="/">
         <file>UI/main.qml</file>
         <file>UI/ButtonRow.qml</file>
-        <file>UI/FileListView.qml</file>
         <file>UI/IndexInput.qml</file>
         <file>UI/ExtentionChooser.qml</file>
+        <file>UI/FilesTableView.qml</file>
+        <file>UI/SearchBar.qml</file>
     </qresource>
 </RCC>

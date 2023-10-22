@@ -7,11 +7,13 @@
 #include <QtConcurrent/QtConcurrent>
 
 #include "Indexer.h"
+#include "FillModel.h"
 
 class MyApp : public QGuiApplication {
 private:
     QQmlApplicationEngine engine;
     Indexer indexer;
+    FillModel fillModel;
 
     void setupAttributes();
     void setupEngine();

@@ -14,13 +14,16 @@ find_package(Qt6 REQUIRED COMPONENTS Core Xml Quick)
 include_directories(${PROJECT_SOURCE_DIR}/Indexer
                     ${PROJECT_SOURCE_DIR}/MyApp
                     ${PROJECT_SOURCE_DIR}/XML/XMLWriter
-                    ${PROJECT_SOURCE_DIR}/XML/XMLParser)
+                    ${PROJECT_SOURCE_DIR}/XML/XMLParser
+                    ${PROJECT_SOURCE_DIR}/FillModel)
 
 add_executable(main 
     main.cpp
     MyApp/MyApp.cpp
     XML/XMLWriter/XMLWriter.cpp
     XML/XMLParser/XMLParser.cpp
+    FillModel/FillModel.cpp
+    FillModel/CustomStandardItemModel.cpp
     Indexer/Indexer.cpp
     qml.qrc
 )
