@@ -1,12 +1,9 @@
 #include "FillModel.h"
 
+#include <QtConcurrent/QtConcurrent>
+
 void FillModel::parseXML() {
     openFile();
-    QFile file("../db.xml");
-    if (!file.open(QIODevice::ReadOnly)) {
-        qDebug() << "Could not open file";
-        return;
-    }
 
     QXmlStreamReader xml(&file);
     while (!xml.atEnd() && !xml.hasError()) {
@@ -17,32 +14,18 @@ void FillModel::parseXML() {
 
         if (token == QXmlStreamReader::StartElement) {
             if (xml.name().toString() == "file") {
-                parseFile(xml, "All");
+                parseFile(xml, "All", "", "");
             }
         }
     }
     close();
 }
 
-void FillModel::printModel() {
-    for (int row = 0; row < model->rowCount(); ++row) {
-        QStringList rowData;
-        for (int column = 0; column < model->columnCount(); ++column) {
-            rowData << model->item(row, column)->text();
-        }
-        qDebug() << rowData.join(" ");
-    }
-}
-
-void FillModel::filterByExtension(const QString &extension) {
+void FillModel::filter(const QString &criteria, const QString &text,
+                       const QString &extension) {
     model->clear();
 
     openFile();
-    QFile file("../db.xml");
-    if (!file.open(QIODevice::ReadOnly)) {
-        qDebug() << "Could not open file";
-        return;
-    }
 
     QXmlStreamReader xml(&file);
     while (!xml.atEnd() && !xml.hasError()) {
@@ -53,14 +36,27 @@ void FillModel::filterByExtension(const QString &extension) {
 
         if (token == QXmlStreamReader::StartElement) {
             if (xml.name().toString() == "file") {
-                parseFile(xml, extension);
+                parseFile(xml, criteria, text, extension);
             }
         }
     }
     close();
 }
 
-void FillModel::parseFile(QXmlStreamReader &xml, const QString &extension) {
+bool matchesCriteria(const QString &criteria, const QString &name,
+                     const QString &date, const QString &size,
+                     const QString &text) {
+    return ((criteria == "name" && name.contains(text, Qt::CaseInsensitive)) ||
+            (criteria == "date" && date.contains(text, Qt::CaseInsensitive)) ||
+            (criteria == "size" && size.contains(text, Qt::CaseInsensitive)));
+}
+
+bool matchesExtension(const QString &ext, const QString &extension) {
+    return extension == "All" || ext.contains(extension);
+}
+
+void FillModel::parseFile(QXmlStreamReader &xml, const QString &criteria,
+                          const QString &text, const QString &extension) {
     QString fileID = xml.attributes().value("fileID").toString();
     QString name, ext, date, size;
     while (!(xml.tokenType() == QXmlStreamReader::EndElement &&
@@ -86,7 +82,10 @@ void FillModel::parseFile(QXmlStreamReader &xml, const QString &extension) {
         xml.readNext();
     }
 
-    if (extension == "All" || ext == extension) {
+    qDebug() << fileID << name << ext << date << size;
+
+    if ((text.isEmpty() || matchesCriteria(criteria, name, date, size, text)) &&
+        matchesExtension(ext, extension)) {
         QList<QStandardItem *> items;
         items.append(new QStandardItem(fileID));
         items.append(new QStandardItem(name));
@@ -100,7 +99,7 @@ void FillModel::parseFile(QXmlStreamReader &xml, const QString &extension) {
 
 void FillModel::openFile() {
     if (!this->file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        qDebug() << "Cannot open file";
+        qDebug() << "Cannot open file1";
         return;
     }
 }
@@ -112,6 +111,7 @@ void FillModel::close() {
 }
 
 QStandardItemModel *FillModel::getModel() const { return model; }
+
 
 FillModel::FillModel()
     : file("../db.xml"), model(new CustomStandardItemModel()) {

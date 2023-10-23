@@ -36,13 +36,13 @@ private:
 
     std::mutex indexMutex;
 
-    void indexInDirAndSubDir(std::string currentDirectory);
-    void indexInCurrentDir(std::string currentDirectory);
+    void indexInDirAndSubDir(const std::string &currentDirectory);
+    void indexInCurrentDir(const std::string &currentDirectory);
 
     void processAll();
-    void processDirectory(std::string currentDirectory);
+    void processDirectory(const std::string &currentDirectory);
     void processQueue(std::string &currentDirectory);
-    void processFilesBaseOnScope(std::string currentDirectory);
+    void processFilesBaseOnScope(const std::string &currentDirectory);
 
     void writeInXml(const std::filesystem::directory_entry &entry);
 
@@ -55,7 +55,7 @@ public:
     Indexer();
     ~Indexer() = default;
 
-    Q_INVOKABLE void detachRun(QString startDirectory,
+    Q_INVOKABLE void detachRun(const QString &startDirectory,
                                bool isProcessingInCurrentDir);
 
     bool getIsStarted() const;

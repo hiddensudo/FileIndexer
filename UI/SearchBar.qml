@@ -4,6 +4,10 @@ import QtQuick.Controls 2.15
 Item {
     id: searchBar
 
+    property alias indexInputCombo: comboBox.currentText
+    property alias indexInputText: indexInput.text
+    property string extensionText: ""
+
     width: parent.width
     anchors.topMargin: 10
     height: 90
@@ -27,7 +31,7 @@ Item {
         y: spacing.y + spacing.height
 
         Label {
-            text: "Choose criteria"
+            text: "Choose criteria and fill input"
         }
 
     }
@@ -57,6 +61,18 @@ Item {
             anchors.margins: 4
         }
 
+    }
+
+    Button {
+        id: startButton
+
+        y: searchInput.y + searchInput.height + 5
+        text: "Find"
+        onClicked: {
+            if (!fillModel.isFilteringStarted) {
+                fillModel.filter(comboBox.currentText, indexInput.text, extensionText);
+            }
+        }
     }
 
 }

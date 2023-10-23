@@ -69,12 +69,19 @@ ApplicationWindow {
                 }
 
                 ExtentionChooser {
+                    id: extensionChooser
+                    indexInputText: searchBar.indexInputText
+                    indexInputCombo: searchBar.indexInputCombo
+
                     width: parent.width - 20
                     height: 25
                 }
 
                 SearchBar {
+                    id: searchBar
+
                     height: 100
+                    extensionText: extensionChooser.chosenExtension
                 }
 
             }

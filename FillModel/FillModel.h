@@ -10,6 +10,7 @@
 
 class FillModel : public QObject {
     Q_OBJECT
+
 private:
     QFile file;
     CustomStandardItemModel *model;
@@ -17,17 +18,20 @@ private:
     void openFile();
     void close();
 
-    void parseFile(QXmlStreamReader &xml, const QString &extension);
+    void parseFile(QXmlStreamReader &xml, const QString &criteria,
+                   const QString &text, const QString &extension);
 
 public:
     FillModel();
     ~FillModel();
+
     QStandardItemModel *getModel() const;
+
     void parseXML();
-    void printModel();
 
 public slots:
-    void filterByExtension(const QString &extension);
+    void filter(const QString &criteria, const QString &text,
+                const QString &extension);
 };
 
 #endif

@@ -4,7 +4,8 @@
 #include <iostream>
 #include <thread>
 
-void Indexer::detachRun(QString startDirectory, bool isProcessingInCurrentDir) {
+void Indexer::detachRun(const QString& startDirectory,
+                        bool isProcessingInCurrentDir) {
     if (!this->isStarted) {
         this->startDirectory = startDirectory.toStdString();
         this->isProcessingInCurrentDir = isProcessingInCurrentDir;
@@ -111,7 +112,7 @@ void Indexer::writeInXml(const std::filesystem::directory_entry& entry) {
     wr.writeInFile("XMLDataBase", name, extension, date, size);
 }
 
-bool isDirectoryExistst(const std::string currentDirectory) {
+bool isDirectoryExistst(const std::string& currentDirectory) {
     if (std::filesystem::exists(currentDirectory)) {
         return true;
     } else {
@@ -120,7 +121,7 @@ bool isDirectoryExistst(const std::string currentDirectory) {
     }
 }
 
-void Indexer::indexInDirAndSubDir(std::string currentDirectory) {
+void Indexer::indexInDirAndSubDir(const std::string& currentDirectory) {
     try {
         if (!isDirectoryExistst) {
             return;
@@ -162,7 +163,7 @@ void Indexer::indexInDirAndSubDir(std::string currentDirectory) {
     }
 }
 
-void Indexer::indexInCurrentDir(const std::string currentDirectory) {
+void Indexer::indexInCurrentDir(const std::string &currentDirectory) {
     try {
         if (!std::filesystem::exists(currentDirectory)) {
             std::cout << "Directory does not exist: " << currentDirectory
@@ -192,8 +193,6 @@ void Indexer::indexInCurrentDir(const std::string currentDirectory) {
 
 void Indexer::processAll() {
     while (!(this->processingQueue.empty() && this->activeThreads == 0)) {
-        std::string currentDirectory;
-
         if (this->isCancelled) {
             return;
         }
@@ -202,6 +201,8 @@ void Indexer::processAll() {
             std::this_thread::sleep_for(std::chrono::milliseconds(100));
             continue;
         } else {
+            std::string currentDirectory;
+
             processQueue(currentDirectory);
 
             processDirectory(currentDirectory);
@@ -228,7 +229,7 @@ void Indexer::processQueue(std::string& currentDirectory) {
     }
 }
 
-void Indexer::processDirectory(std::string currentDirectory) {
+void Indexer::processDirectory(const std::string& currentDirectory) {
     if (!currentDirectory.empty()) {
         this->activeThreads++;
         processFilesBaseOnScope(currentDirectory);
@@ -247,7 +248,7 @@ void Indexer::processDirectory(std::string currentDirectory) {
     }
 }
 
-void Indexer::processFilesBaseOnScope(std::string currentDirectory) {
+void Indexer::processFilesBaseOnScope(const std::string& currentDirectory) {
     if (this->isProcessingInCurrentDir) {
         indexInCurrentDir(currentDirectory);
     } else {
@@ -256,10 +257,11 @@ void Indexer::processFilesBaseOnScope(std::string currentDirectory) {
 }
 
 Indexer::Indexer()
-    : activeThreads(0),
-      isProcessingInCurrentDir(true),
-      xmlPath("db.xml"),
+    : xmlPath("db.xml"),
       wr("../" + xmlPath),
+      startDirectory(),
+      isProcessingInCurrentDir(true),
+      activeThreads(0),
       isPaused(false),
       isCancelled(false),
       isStarted(false) {}
