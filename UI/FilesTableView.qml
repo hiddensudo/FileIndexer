@@ -16,21 +16,18 @@ ListView {
     orientation: Qt.Vertical
     anchors.fill: parent
     model: listModel
+    onModelChanged: {
+        for (var i = 0; i < calculatedColumns.length; i++) {
+            var role = calculatedColumns[i];
+            if (!columnWidths[role])
+                columnWidths[role] = 0;
 
-    Connections {
-        onFilterFinished: {
-            for (var i = 0; i < calculatedColumns.length; i++) {
-                var role = calculatedColumns[i];
-                if (!columnWidths[role])
-                    columnWidths[role] = 0;
-
-                var modelWidth = columnWidths[role];
-                for (var j = 0; j < model.count; j++) {
-                    textMetrics.text = model.get(j)[role];
-                    modelWidth = Math.max(textMetrics.width, modelWidth);
-                }
-                columnWidths[role] = modelWidth;
+            var modelWidth = columnWidths[role];
+            for (var j = 0; j < model.count; j++) {
+                textMetrics.text = model.get(j)[role];
+                modelWidth = Math.max(textMetrics.width, modelWidth);
             }
+            columnWidths[role] = modelWidth;
         }
     }
 

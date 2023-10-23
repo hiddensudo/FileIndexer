@@ -1,0 +1,3698 @@
+<XMLDataBase>
+ <file fileID="1">
+  <name>EpicInstaller-15.7.0-games-37884c42c13949f08d497c367dbc6806.msi</name>
+  <extension>.msi</extension>
+  <date>2023-10-19 12:40:13</date>
+  <size>185040896</size>
+ </file>
+ <file fileID="2">
+  <name>massif.out.6424</name>
+  <extension>.6424</extension>
+  <date>2023-10-23 14:15:16</date>
+  <size>519571</size>
+ </file>
+ <file fileID="3">
+  <name>CV_C++ Developer_Danylo_Dudka_2023_Eng.pdf</name>
+  <extension>.pdf</extension>
+  <date>2023-10-09 21:12:29</date>
+  <size>61702</size>
+ </file>
+ <file fileID="4">
+  <name>Дудка_Кікіджан_ПЗ1.pdf</name>
+  <extension>.pdf</extension>
+  <date>2023-10-20 14:48:38</date>
+  <size>221021</size>
+ </file>
+ <file fileID="5">
+  <name>чіво.mp3</name>
+  <extension>.mp3</extension>
+  <date>2023-10-23 00:04:55</date>
+  <size>6637236</size>
+ </file>
+ <file fileID="6">
+  <name>SirusLauncher-1.3.1.AppImage</name>
+  <extension>.AppImage</extension>
+  <date>2023-10-16 19:06:08</date>
+  <size>84855590</size>
+ </file>
+ <file fileID="7">
+  <name>Blizzard_AuctionUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="8">
+  <name>Blizzard_CombatText.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="9">
+  <name>TidyPlatesChangelog.txt</name>
+  <extension>.txt</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>18321</size>
+ </file>
+ <file fileID="10">
+  <name>TidyPlatesDefaults.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>4148</size>
+ </file>
+ <file fileID="11">
+  <name>TidyPlatesCore.lua</name>
+  <extension>.lua</extension>
+  <date>2010-09-28 05:34:57</date>
+  <size>42303</size>
+ </file>
+ <file fileID="12">
+  <name>WhatIsNew.txt</name>
+  <extension>.txt</extension>
+  <date>2010-09-05 15:37:25</date>
+  <size>527</size>
+ </file>
+ <file fileID="13">
+  <name>Blizzard_ArenaUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="14">
+  <name>TidyPlatesPanel.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-24 01:55:37</date>
+  <size>13185</size>
+ </file>
+ <file fileID="15">
+  <name>TidyPlatesUtility.lua</name>
+  <extension>.lua</extension>
+  <date>2010-09-23 00:36:53</date>
+  <size>16228</size>
+ </file>
+ <file fileID="16">
+  <name>TidyPlates.toc</name>
+  <extension>.toc</extension>
+  <date>2010-09-28 05:44:43</date>
+  <size>367</size>
+ </file>
+ <file fileID="17">
+  <name>Blizzard_TradeSkillUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="18">
+  <name>CastNotStoppable.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>32812</size>
+ </file>
+ <file fileID="19">
+  <name>ComboPointWidget.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>1504</size>
+ </file>
+ <file fileID="20">
+  <name>AuraWidget.lua</name>
+  <extension>.lua</extension>
+  <date>2010-09-05 01:11:53</date>
+  <size>9765</size>
+ </file>
+ <file fileID="21">
+  <name>Statusbar.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-02 00:53:17</date>
+  <size>2374</size>
+ </file>
+ <file fileID="22">
+  <name>CastWidget.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>3318</size>
+ </file>
+ <file fileID="23">
+  <name>ClassWidget.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-16 22:32:37</date>
+  <size>735</size>
+ </file>
+ <file fileID="24">
+  <name>Widgets.xml</name>
+  <extension>.xml</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>495</size>
+ </file>
+ <file fileID="25">
+  <name>EliteBorder.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>32812</size>
+ </file>
+ <file fileID="26">
+  <name>RangeWidget.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>65580</size>
+ </file>
+ <file fileID="27">
+  <name>Dot.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-10 17:51:17</date>
+  <size>4140</size>
+ </file>
+ <file fileID="28">
+  <name>NugComboBar.lua</name>
+  <extension>.lua</extension>
+  <date>2008-08-30 02:12:57</date>
+  <size>15686</size>
+ </file>
+ <file fileID="29">
+  <name>Skins.lua</name>
+  <extension>.lua</extension>
+  <date>2008-06-25 10:35:39</date>
+  <size>7181</size>
+ </file>
+ <file fileID="30">
+  <name>NugComboBar.toc</name>
+  <extension>.toc</extension>
+  <date>2008-08-30 02:15:17</date>
+  <size>163</size>
+ </file>
+ <file fileID="31">
+  <name>embeds.xml</name>
+  <extension>.xml</extension>
+  <date>2008-07-19 07:59:01</date>
+  <size>469</size>
+ </file>
+ <file fileID="32">
+  <name>RegularBorder.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>32812</size>
+ </file>
+ <file fileID="33">
+  <name>Statusbar.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>16428</size>
+ </file>
+ <file fileID="34">
+  <name>CastStoppable.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>32812</size>
+ </file>
+ <file fileID="35">
+  <name>RegularThreat.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>32812</size>
+ </file>
+ <file fileID="36">
+  <name>LiberationSans-Regular.ttf</name>
+  <extension>.ttf</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>110660</size>
+ </file>
+ <file fileID="37">
+  <name>Highlight.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>32812</size>
+ </file>
+ <file fileID="38">
+  <name>EliteThreat.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>32812</size>
+ </file>
+ <file fileID="39">
+  <name>Empty.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>1068</size>
+ </file>
+ <file fileID="40">
+  <name>StripedPT.tga</name>
+  <extension>.tga</extension>
+  <date>2008-02-13 23:09:53</date>
+  <size>16428</size>
+ </file>
+ <file fileID="41">
+  <name>StripedBG.tga</name>
+  <extension>.tga</extension>
+  <date>2008-02-13 23:07:15</date>
+  <size>65580</size>
+ </file>
+ <file fileID="42">
+  <name>strip.tga</name>
+  <extension>.tga</extension>
+  <date>2008-02-16 13:11:49</date>
+  <size>65580</size>
+ </file>
+ <file fileID="43">
+  <name>AnimTex.tga</name>
+  <extension>.tga</extension>
+  <date>2008-02-16 18:29:13</date>
+  <size>65580</size>
+ </file>
+ <file fileID="44">
+  <name>StripedSN.tga</name>
+  <extension>.tga</extension>
+  <date>2008-02-13 23:09:53</date>
+  <size>16428</size>
+ </file>
+ <file fileID="45">
+  <name>lib.xml</name>
+  <extension>.xml</extension>
+  <date>2008-03-27 11:37:53</date>
+  <size>224</size>
+ </file>
+ <file fileID="46">
+  <name>AceGUI-3.0.xml</name>
+  <extension>.xml</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>1281</size>
+ </file>
+ <file fileID="47">
+  <name>AceGUI-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2008-09-06 10:31:23</date>
+  <size>18182</size>
+ </file>
+ <file fileID="48">
+  <name>SpinnerArt.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>131116</size>
+ </file>
+ <file fileID="49">
+  <name>Green.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>16428</size>
+ </file>
+ <file fileID="50">
+  <name>Red.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>16428</size>
+ </file>
+ <file fileID="51">
+  <name>Orange.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>16428</size>
+ </file>
+ <file fileID="52">
+  <name>Yellow.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>16428</size>
+ </file>
+ <file fileID="53">
+  <name>Blue.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>16428</size>
+ </file>
+ <file fileID="54">
+  <name>CallbackHandler-1.0.lua</name>
+  <extension>.lua</extension>
+  <date>2008-02-09 12:00:23</date>
+  <size>8744</size>
+ </file>
+ <file fileID="55">
+  <name>CallbackHandler-1.0.xml</name>
+  <extension>.xml</extension>
+  <date>2008-02-03 14:40:43</date>
+  <size>218</size>
+ </file>
+ <file fileID="56">
+  <name>Blizzard_TrainerUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="57">
+  <name>LibStub.lua</name>
+  <extension>.lua</extension>
+  <date>2008-02-03 14:40:43</date>
+  <size>1367</size>
+ </file>
+ <file fileID="58">
+  <name>LibSharedMedia-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2008-03-27 11:37:53</date>
+  <size>6802</size>
+ </file>
+ <file fileID="59">
+  <name>AceGUIWidget-Heading.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>1757</size>
+ </file>
+ <file fileID="60">
+  <name>Knife.blp</name>
+  <extension>.blp</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>2564</size>
+ </file>
+ <file fileID="61">
+  <name>Arrow.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-10 17:50:53</date>
+  <size>4140</size>
+ </file>
+ <file fileID="62">
+  <name>Shield.blp</name>
+  <extension>.blp</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>2564</size>
+ </file>
+ <file fileID="63">
+  <name>Question.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-10 17:54:53</date>
+  <size>4140</size>
+ </file>
+ <file fileID="64">
+  <name>NCBShine.tga</name>
+  <extension>.tga</extension>
+  <date>2006-04-20 03:24:43</date>
+  <size>1068</size>
+ </file>
+ <file fileID="65">
+  <name>NCBBackground.tga</name>
+  <extension>.tga</extension>
+  <date>2006-11-19 23:05:25</date>
+  <size>32812</size>
+ </file>
+ <file fileID="66">
+  <name>NCBPoint.tga</name>
+  <extension>.tga</extension>
+  <date>2007-06-02 22:08:59</date>
+  <size>1068</size>
+ </file>
+ <file fileID="67">
+  <name>Gatherer.lua</name>
+  <extension>.lua</extension>
+  <date>2022-11-16 14:47:15</date>
+  <size>1172728</size>
+ </file>
+ <file fileID="68">
+  <name>DB_WowheadMain.lua</name>
+  <extension>.lua</extension>
+  <date>2009-02-18 01:46:59</date>
+  <size>13208</size>
+ </file>
+ <file fileID="69">
+  <name>DB_WowheadData.lua</name>
+  <extension>.lua</extension>
+  <date>2009-02-18 01:47:01</date>
+  <size>247484</size>
+ </file>
+ <file fileID="70">
+  <name>GathererDB_Wowhead.toc</name>
+  <extension>.toc</extension>
+  <date>2010-03-28 00:50:37</date>
+  <size>409</size>
+ </file>
+ <file fileID="71">
+  <name>AceGUIWidget-Frame.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>8409</size>
+ </file>
+ <file fileID="72">
+  <name>AceGUIWidget-DropDown.lua</name>
+  <extension>.lua</extension>
+  <date>2008-09-06 10:31:23</date>
+  <size>16945</size>
+ </file>
+ <file fileID="73">
+  <name>AceGUIWidget-EditBox.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>4826</size>
+ </file>
+ <file fileID="74">
+  <name>AceGUIWidget-MultiLineEditBox.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>8886</size>
+ </file>
+ <file fileID="75">
+  <name>AceGUIWidget-DropDownGroup.lua</name>
+  <extension>.lua</extension>
+  <date>2008-06-09 05:56:25</date>
+  <size>3927</size>
+ </file>
+ <file fileID="76">
+  <name>AceGUIWidget-BlizOptionsGroup.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>3732</size>
+ </file>
+ <file fileID="77">
+  <name>AceGUIWidget-Icon.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>2221</size>
+ </file>
+ <file fileID="78">
+  <name>AceGUIWidget-InlineGroup.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>3666</size>
+ </file>
+ <file fileID="79">
+  <name>AceGUIWidget-Button.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>1650</size>
+ </file>
+ <file fileID="80">
+  <name>AceGUIWidget-TreeGroup.lua</name>
+  <extension>.lua</extension>
+  <date>2008-09-19 02:29:45</date>
+  <size>17801</size>
+ </file>
+ <file fileID="81">
+  <name>AceGUIWidget-SimpleGroup.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>2524</size>
+ </file>
+ <file fileID="82">
+  <name>AceGUIWidget-TabGroup.lua</name>
+  <extension>.lua</extension>
+  <date>2008-09-06 10:31:23</date>
+  <size>9224</size>
+ </file>
+ <file fileID="83">
+  <name>AceGUIWidget-CheckBox.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>5241</size>
+ </file>
+ <file fileID="84">
+  <name>AceGUIWidget-ColorPicker.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>4359</size>
+ </file>
+ <file fileID="85">
+  <name>AceGUIWidget-DropDown-Items.lua</name>
+  <extension>.lua</extension>
+  <date>2008-06-09 05:56:25</date>
+  <size>10105</size>
+ </file>
+ <file fileID="86">
+  <name>AceGUIWidget-Label.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>3169</size>
+ </file>
+ <file fileID="87">
+  <name>AceGUIWidget-ScrollFrame.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>6348</size>
+ </file>
+ <file fileID="88">
+  <name>AceGUIWidget-Keybinding.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>5150</size>
+ </file>
+ <file fileID="89">
+  <name>AceGUIWidget-Slider.lua</name>
+  <extension>.lua</extension>
+  <date>2008-05-21 04:49:45</date>
+  <size>6226</size>
+ </file>
+ <file fileID="90">
+  <name>2.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>8236</size>
+ </file>
+ <file fileID="91">
+  <name>AceConfig-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2008-02-03 14:40:43</date>
+  <size>1330</size>
+ </file>
+ <file fileID="92">
+  <name>Blizzard_ItemSocketingUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="93">
+  <name>Bagnon_Tooltips.toc</name>
+  <extension>.toc</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>513</size>
+ </file>
+ <file fileID="94">
+  <name>tooltips.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>2938</size>
+ </file>
+ <file fileID="95">
+  <name>NoteBackground.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>65580</size>
+ </file>
+ <file fileID="96">
+  <name>NoteBackgroundBlur.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>65580</size>
+ </file>
+ <file fileID="97">
+  <name>4.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>8236</size>
+ </file>
+ <file fileID="98">
+  <name>ComboWidgetUnified.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>81964</size>
+ </file>
+ <file fileID="99">
+  <name>3.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>8236</size>
+ </file>
+ <file fileID="100">
+  <name>Four.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>16428</size>
+ </file>
+ <file fileID="101">
+  <name>Five.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>16428</size>
+ </file>
+ <file fileID="102">
+  <name>One.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>16428</size>
+ </file>
+ <file fileID="103">
+  <name>1.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>8236</size>
+ </file>
+ <file fileID="104">
+  <name>Two.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>16428</size>
+ </file>
+ <file fileID="105">
+  <name>Three.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>16428</size>
+ </file>
+ <file fileID="106">
+  <name>5.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>8236</size>
+ </file>
+ <file fileID="107">
+  <name>AceConfigRegistry-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2008-06-09 05:56:25</date>
+  <size>10725</size>
+ </file>
+ <file fileID="108">
+  <name>Blizzard_TimeManager.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="109">
+  <name>TidyPlates_Neon.toc</name>
+  <extension>.toc</extension>
+  <date>2010-09-11 08:21:11</date>
+  <size>341</size>
+ </file>
+ <file fileID="110">
+  <name>Style.lua</name>
+  <extension>.lua</extension>
+  <date>2010-09-05 15:47:33</date>
+  <size>3809</size>
+ </file>
+ <file fileID="111">
+  <name>Panel.lua</name>
+  <extension>.lua</extension>
+  <date>2010-09-08 05:30:11</date>
+  <size>20987</size>
+ </file>
+ <file fileID="112">
+  <name>Functions.lua</name>
+  <extension>.lua</extension>
+  <date>2010-09-05 15:47:41</date>
+  <size>8890</size>
+ </file>
+ <file fileID="113">
+  <name>Copy of Panel.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-22 07:25:19</date>
+  <size>15533</size>
+ </file>
+ <file fileID="114">
+  <name>AceConfig-3.0.xml</name>
+  <extension>.xml</extension>
+  <date>2008-02-03 14:40:43</date>
+  <size>473</size>
+ </file>
+ <file fileID="115">
+  <name>AceConfigRegistry-3.0.xml</name>
+  <extension>.xml</extension>
+  <date>2008-02-03 14:40:43</date>
+  <size>220</size>
+ </file>
+ <file fileID="116">
+  <name>Blizzard_AchievementUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="117">
+  <name>panels.xml</name>
+  <extension>.xml</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>215</size>
+ </file>
+ <file fileID="118">
+  <name>Bagnon_Config.toc</name>
+  <extension>.toc</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>203</size>
+ </file>
+ <file fileID="119">
+  <name>widgets.xml</name>
+  <extension>.xml</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>292</size>
+ </file>
+ <file fileID="120">
+  <name>localization.xml</name>
+  <extension>.xml</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>404</size>
+ </file>
+ <file fileID="121">
+  <name>AceConfigCmd-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2008-06-09 05:56:25</date>
+  <size>20617</size>
+ </file>
+ <file fileID="122">
+  <name>AceConfigCmd-3.0.xml</name>
+  <extension>.xml</extension>
+  <date>2008-02-03 14:40:43</date>
+  <size>215</size>
+ </file>
+ <file fileID="123">
+  <name>Blizzard_DebugTools.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="124">
+  <name>Blizzard_MacroUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="125">
+  <name>Blizzard_GuildBankUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="126">
+  <name>localization.tw.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>2018</size>
+ </file>
+ <file fileID="127">
+  <name>localization.cn.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>2015</size>
+ </file>
+ <file fileID="128">
+  <name>localization.de.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>3117</size>
+ </file>
+ <file fileID="129">
+  <name>localization.ru.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>4046</size>
+ </file>
+ <file fileID="130">
+  <name>localization.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>2645</size>
+ </file>
+ <file fileID="131">
+  <name>Blizzard_GMSurveyUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="132">
+  <name>todo.txt</name>
+  <extension>.txt</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>29</size>
+ </file>
+ <file fileID="133">
+  <name>Neon_Empty.tga</name>
+  <extension>.tga</extension>
+  <date>2010-01-20 10:06:49</date>
+  <size>300</size>
+ </file>
+ <file fileID="134">
+  <name>Neon_CastOverlayRed.tga</name>
+  <extension>.tga</extension>
+  <date>2010-01-26 20:26:25</date>
+  <size>16428</size>
+ </file>
+ <file fileID="135">
+  <name>Neon_CastOverlayBlue.tga</name>
+  <extension>.tga</extension>
+  <date>2010-01-26 20:25:41</date>
+  <size>16428</size>
+ </file>
+ <file fileID="136">
+  <name>Neon_AggroOverlay.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-28 15:19:41</date>
+  <size>65580</size>
+ </file>
+ <file fileID="137">
+  <name>Neon_AggroOverlayWhite.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-28 15:20:11</date>
+  <size>65580</size>
+ </file>
+ <file fileID="138">
+  <name>Neon_CastOverlay.tga</name>
+  <extension>.tga</extension>
+  <date>2010-01-20 10:39:15</date>
+  <size>16428</size>
+ </file>
+ <file fileID="139">
+  <name>Neon_Select.tga</name>
+  <extension>.tga</extension>
+  <date>2010-01-27 23:35:47</date>
+  <size>16428</size>
+ </file>
+ <file fileID="140">
+  <name>Neon_HealthOverlayEliteStar.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-21 17:23:11</date>
+  <size>16428</size>
+ </file>
+ <file fileID="141">
+  <name>Neon_AggroOverlayWhite.png</name>
+  <extension>.png</extension>
+  <date>2010-08-25 21:49:59</date>
+  <size>7942</size>
+ </file>
+ <file fileID="142">
+  <name>Neon_HealthOverlay.tga</name>
+  <extension>.tga</extension>
+  <date>2010-01-26 20:47:11</date>
+  <size>16428</size>
+ </file>
+ <file fileID="143">
+  <name>Neon_HealthOverlayElite.tga</name>
+  <extension>.tga</extension>
+  <date>2010-01-31 12:52:19</date>
+  <size>16428</size>
+ </file>
+ <file fileID="144">
+  <name>Neon_Bar.tga</name>
+  <extension>.tga</extension>
+  <date>2010-01-26 20:53:41</date>
+  <size>16428</size>
+ </file>
+ <file fileID="145">
+  <name>Neon_Highlight.tga</name>
+  <extension>.tga</extension>
+  <date>2010-01-26 20:54:17</date>
+  <size>16428</size>
+ </file>
+ <file fileID="146">
+  <name>Neon_AggroOverlay.png</name>
+  <extension>.png</extension>
+  <date>2010-08-25 21:45:55</date>
+  <size>7355</size>
+ </file>
+ <file fileID="147">
+  <name>LibDataBroker-1.1.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>3139</size>
+ </file>
+ <file fileID="148">
+  <name>PanelTank.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-23 00:42:31</date>
+  <size>15629</size>
+ </file>
+ <file fileID="149">
+  <name>PanelDPS.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-23 00:37:33</date>
+  <size>0</size>
+ </file>
+ <file fileID="150">
+  <name>PanelBase.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-23 00:36:45</date>
+  <size>1348</size>
+ </file>
+ <file fileID="151">
+  <name>_PanelDPS.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-22 07:02:55</date>
+  <size>13762</size>
+ </file>
+ <file fileID="152">
+  <name>db.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>10570</size>
+ </file>
+ <file fileID="153">
+  <name>Bagnon_Forever.toc</name>
+  <extension>.toc</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>342</size>
+ </file>
+ <file fileID="154">
+  <name>ui.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>2697</size>
+ </file>
+ <file fileID="155">
+  <name>ui.xml</name>
+  <extension>.xml</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>706</size>
+ </file>
+ <file fileID="156">
+  <name>localization.fr.lua</name>
+  <extension>.lua</extension>
+  <date>2008-10-26 18:06:59</date>
+  <size>531</size>
+ </file>
+ <file fileID="157">
+  <name>localization.ko.lua</name>
+  <extension>.lua</extension>
+  <date>2008-11-17 18:27:03</date>
+  <size>320</size>
+ </file>
+ <file fileID="158">
+  <name>optionsPanel.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>868</size>
+ </file>
+ <file fileID="159">
+  <name>dropdown.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>1593</size>
+ </file>
+ <file fileID="160">
+  <name>slider.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>2258</size>
+ </file>
+ <file fileID="161">
+  <name>colorSelector.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>2777</size>
+ </file>
+ <file fileID="162">
+  <name>checkButton.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>1337</size>
+ </file>
+ <file fileID="163">
+  <name>SlideBar.toc</name>
+  <extension>.toc</extension>
+  <date>2010-10-21 21:08:25</date>
+  <size>484</size>
+ </file>
+ <file fileID="164">
+  <name>SlideMain.lua</name>
+  <extension>.lua</extension>
+  <date>2010-10-21 21:08:25</date>
+  <size>31379</size>
+ </file>
+ <file fileID="165">
+  <name>lgpl.txt</name>
+  <extension>.txt</extension>
+  <date>2010-10-21 21:08:25</date>
+  <size>26436</size>
+ </file>
+ <file fileID="166">
+  <name>Load.xml</name>
+  <extension>.xml</extension>
+  <date>2010-10-21 21:08:25</date>
+  <size>165</size>
+ </file>
+ <file fileID="167">
+  <name>main.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>9441</size>
+ </file>
+ <file fileID="168">
+  <name>Bindings.xml</name>
+  <extension>.xml</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>397</size>
+ </file>
+ <file fileID="169">
+  <name>Bagnon.toc</name>
+  <extension>.toc</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>378</size>
+ </file>
+ <file fileID="170">
+  <name>colorOptions.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>6630</size>
+ </file>
+ <file fileID="171">
+  <name>frameOptions.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>16706</size>
+ </file>
+ <file fileID="172">
+  <name>displayOptions.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>3016</size>
+ </file>
+ <file fileID="173">
+  <name>general.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>6133</size>
+ </file>
+ <file fileID="174">
+  <name>LibStub.toc</name>
+  <extension>.toc</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>253</size>
+ </file>
+ <file fileID="175">
+  <name>.pkgmeta</name>
+  <extension></extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>20</size>
+ </file>
+ <file fileID="176">
+  <name>LibItemSearch-1.0.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>9663</size>
+ </file>
+ <file fileID="177">
+  <name>AceConsole-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>8339</size>
+ </file>
+ <file fileID="178">
+  <name>AceConsole-3.0.xml</name>
+  <extension>.xml</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>213</size>
+ </file>
+ <file fileID="179">
+  <name>AceEvent-3.0.xml</name>
+  <extension>.xml</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>211</size>
+ </file>
+ <file fileID="180">
+  <name>components.xml</name>
+  <extension>.xml</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>804</size>
+ </file>
+ <file fileID="181">
+  <name>utility.xml</name>
+  <extension>.xml</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>330</size>
+ </file>
+ <file fileID="182">
+  <name>AceConfigDialog-3.0.xml</name>
+  <extension>.xml</extension>
+  <date>2008-02-03 14:40:43</date>
+  <size>218</size>
+ </file>
+ <file fileID="183">
+  <name>AceConfigDialog-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2008-09-06 10:31:23</date>
+  <size>47103</size>
+ </file>
+ <file fileID="184">
+  <name>LibRevision.lua</name>
+  <extension>.lua</extension>
+  <date>2010-10-21 21:08:25</date>
+  <size>3754</size>
+ </file>
+ <file fileID="185">
+  <name>Dominos_XP.toc</name>
+  <extension>.toc</extension>
+  <date>2009-12-07 23:15:23</date>
+  <size>256</size>
+ </file>
+ <file fileID="186">
+  <name>itemFrame.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>12320</size>
+ </file>
+ <file fileID="187">
+  <name>bagFrame.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>2710</size>
+ </file>
+ <file fileID="188">
+  <name>item.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>16179</size>
+ </file>
+ <file fileID="189">
+  <name>bagToggle.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>3073</size>
+ </file>
+ <file fileID="190">
+  <name>bag.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>11733</size>
+ </file>
+ <file fileID="191">
+  <name>frameSettings.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>12591</size>
+ </file>
+ <file fileID="192">
+  <name>titleFrame.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>3401</size>
+ </file>
+ <file fileID="193">
+  <name>moneyFrame.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>4867</size>
+ </file>
+ <file fileID="194">
+  <name>searchFrame.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>3344</size>
+ </file>
+ <file fileID="195">
+  <name>frame.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>17978</size>
+ </file>
+ <file fileID="196">
+  <name>searchToggle.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>3305</size>
+ </file>
+ <file fileID="197">
+  <name>settings.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>5934</size>
+ </file>
+ <file fileID="198">
+  <name>playerSelector.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>2889</size>
+ </file>
+ <file fileID="199">
+  <name>optionsToggle.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>2070</size>
+ </file>
+ <file fileID="200">
+  <name>brokerDisplay.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>7920</size>
+ </file>
+ <file fileID="201">
+  <name>savedFrameSettings.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>12185</size>
+ </file>
+ <file fileID="202">
+  <name>savedSettings.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>4915</size>
+ </file>
+ <file fileID="203">
+  <name>AceLocale-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>5757</size>
+ </file>
+ <file fileID="204">
+  <name>AceLocale-3.0.xml</name>
+  <extension>.xml</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>212</size>
+ </file>
+ <file fileID="205">
+  <name>WidgetDevelopment.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>2759</size>
+ </file>
+ <file fileID="206">
+  <name>README.textile</name>
+  <extension>.textile</extension>
+  <date>2010-10-21 21:08:25</date>
+  <size>1037</size>
+ </file>
+ <file fileID="207">
+  <name>xp.lua</name>
+  <extension>.lua</extension>
+  <date>2010-07-12 23:56:15</date>
+  <size>12880</size>
+ </file>
+ <file fileID="208">
+  <name>license.txt</name>
+  <extension>.txt</extension>
+  <date>2009-04-11 11:48:23</date>
+  <size>1562</size>
+ </file>
+ <file fileID="209">
+  <name>AceEvent-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>4698</size>
+ </file>
+ <file fileID="210">
+  <name>LibDataBroker.toc</name>
+  <extension>.toc</extension>
+  <date>2010-10-21 21:08:25</date>
+  <size>327</size>
+ </file>
+ <file fileID="211">
+  <name>SHAMAN.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>16428</size>
+ </file>
+ <file fileID="212">
+  <name>DRUID.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>16428</size>
+ </file>
+ <file fileID="213">
+  <name>HUNTER.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>16428</size>
+ </file>
+ <file fileID="214">
+  <name>WARLOCK.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>16428</size>
+ </file>
+ <file fileID="215">
+  <name>PRIEST.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>16428</size>
+ </file>
+ <file fileID="216">
+  <name>WARRIOR.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>16428</size>
+ </file>
+ <file fileID="217">
+  <name>MAGE.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>16428</size>
+ </file>
+ <file fileID="218">
+  <name>DEATHKNIGHT.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>16428</size>
+ </file>
+ <file fileID="219">
+  <name>ROGUE.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>16428</size>
+ </file>
+ <file fileID="220">
+  <name>PALADIN.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>16428</size>
+ </file>
+ <file fileID="221">
+  <name>bagSlotInfo.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>4478</size>
+ </file>
+ <file fileID="222">
+  <name>ears.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>2107</size>
+ </file>
+ <file fileID="223">
+  <name>classy.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>878</size>
+ </file>
+ <file fileID="224">
+  <name>itemSlotInfo.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>1100</size>
+ </file>
+ <file fileID="225">
+  <name>itemEvents.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>6231</size>
+ </file>
+ <file fileID="226">
+  <name>callbacks.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>165</size>
+ </file>
+ <file fileID="227">
+  <name>playerInfo.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>595</size>
+ </file>
+ <file fileID="228">
+  <name>ThreatWidgets.lua</name>
+  <extension>.lua</extension>
+  <date>2010-09-28 05:21:05</date>
+  <size>15621</size>
+ </file>
+ <file fileID="229">
+  <name>AceAddon-3.0.xml</name>
+  <extension>.xml</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>211</size>
+ </file>
+ <file fileID="230">
+  <name>AceAddon-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>24779</size>
+ </file>
+ <file fileID="231">
+  <name>WidgetCore.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>2787</size>
+ </file>
+ <file fileID="232">
+  <name>Skulls.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>65580</size>
+ </file>
+ <file fileID="233">
+  <name>Copy of Bomb.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>65580</size>
+ </file>
+ <file fileID="234">
+  <name>Bomb.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>65580</size>
+ </file>
+ <file fileID="235">
+  <name>Fire.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>65580</size>
+ </file>
+ <file fileID="236">
+  <name>Ice.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>65580</size>
+ </file>
+ <file fileID="237">
+  <name>SelectionWidget.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>783</size>
+ </file>
+ <file fileID="238">
+  <name>RightDot.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>4140</size>
+ </file>
+ <file fileID="239">
+  <name>LeftDot.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>4140</size>
+ </file>
+ <file fileID="240">
+  <name>Unified.psd</name>
+  <extension>.psd</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>23709</size>
+ </file>
+ <file fileID="241">
+  <name>Threatline.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>4140</size>
+ </file>
+ <file fileID="242">
+  <name>ThreatLineUnified.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>16428</size>
+ </file>
+ <file fileID="243">
+  <name>Blizzard_Calendar.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="244">
+  <name>RangeWidget.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>3445</size>
+ </file>
+ <file fileID="245">
+  <name>NoteWidget.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>9110</size>
+ </file>
+ <file fileID="246">
+  <name>CastAdvancedWidget.lua</name>
+  <extension>.lua</extension>
+  <date>2010-08-01 06:54:39</date>
+  <size>3069</size>
+ </file>
+ <file fileID="247">
+  <name>BossDebuff.lua</name>
+  <extension>.lua</extension>
+  <date>2010-09-04 15:10:45</date>
+  <size>2949</size>
+ </file>
+ <file fileID="248">
+  <name>localization.es.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>164</size>
+ </file>
+ <file fileID="249">
+  <name>AuraFrame.tga</name>
+  <extension>.tga</extension>
+  <date>2010-08-01 06:54:37</date>
+  <size>4140</size>
+ </file>
+ <file fileID="250">
+  <name>AuraGlow.tga</name>
+  <extension>.tga</extension>
+  <date>2010-09-05 00:27:29</date>
+  <size>4140</size>
+ </file>
+ <file fileID="251">
+  <name>EasyLoot.lua</name>
+  <extension>.lua</extension>
+  <date>2018-10-10 15:59:29</date>
+  <size>31240</size>
+ </file>
+ <file fileID="252">
+  <name>Changelog-EasyLoot-v1.7.0.0.txt</name>
+  <extension>.txt</extension>
+  <date>2010-09-18 09:44:19</date>
+  <size>1469</size>
+ </file>
+ <file fileID="253">
+  <name>bindings.xml</name>
+  <extension>.xml</extension>
+  <date>2010-09-18 09:44:19</date>
+  <size>28</size>
+ </file>
+ <file fileID="254">
+  <name>README.txt</name>
+  <extension>.txt</extension>
+  <date>2010-09-18 09:44:19</date>
+  <size>3607</size>
+ </file>
+ <file fileID="255">
+  <name>WOWTUT.RU  -  «ñ¿¡ ¿º ½ptF¿s ßá¬G«ó ß áññ«¡á¼¿ ñ½n wow ó RUnete..url</name>
+  <extension>.url</extension>
+  <date>2009-06-10 03:51:03</date>
+  <size>72</size>
+ </file>
+ <file fileID="256">
+  <name>EasyLoot.toc</name>
+  <extension>.toc</extension>
+  <date>2010-09-18 09:44:19</date>
+  <size>436</size>
+ </file>
+ <file fileID="257">
+  <name>EasyLoot.xml</name>
+  <extension>.xml</extension>
+  <date>2016-07-10 00:07:13</date>
+  <size>54022</size>
+ </file>
+ <file fileID="258">
+  <name>Changelog-EasyLoot-v2.2.6.1.txt</name>
+  <extension>.txt</extension>
+  <date>2013-09-12 17:52:25</date>
+  <size>504</size>
+ </file>
+ <file fileID="259">
+  <name>Blizzard_VehicleUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="260">
+  <name>Blizzard_BattlefieldMinimap.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="261">
+  <name>TidyPlates_Grey.toc</name>
+  <extension>.toc</extension>
+  <date>2010-08-24 02:19:51</date>
+  <size>405</size>
+ </file>
+ <file fileID="262">
+  <name>Recount_Modes.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>23578</size>
+ </file>
+ <file fileID="263">
+  <name>FunctionsTank.lua</name>
+  <extension>.lua</extension>
+  <date>2010-06-18 00:05:35</date>
+  <size>5203</size>
+ </file>
+ <file fileID="264">
+  <name>StylesTank.lua</name>
+  <extension>.lua</extension>
+  <date>2010-06-13 15:57:55</date>
+  <size>1220</size>
+ </file>
+ <file fileID="265">
+  <name>Blizzard_RaidUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="266">
+  <name>Blizzard_TokenUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="267">
+  <name>Blizzard_BarbershopUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="268">
+  <name>GUI_Config.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>67580</size>
+ </file>
+ <file fileID="269">
+  <name>Swatter.lua</name>
+  <extension>.lua</extension>
+  <date>2010-10-21 21:08:25</date>
+  <size>22609</size>
+ </file>
+ <file fileID="270">
+  <name>!Swatter.toc</name>
+  <extension>.toc</extension>
+  <date>2010-10-21 21:08:25</date>
+  <size>371</size>
+ </file>
+ <file fileID="271">
+  <name>FunctionsDPS.lua</name>
+  <extension>.lua</extension>
+  <date>2010-07-10 06:06:27</date>
+  <size>5067</size>
+ </file>
+ <file fileID="272">
+  <name>StylesDPS.lua</name>
+  <extension>.lua</extension>
+  <date>2010-05-20 22:22:51</date>
+  <size>1198</size>
+ </file>
+ <file fileID="273">
+  <name>Blizzard_GMChatUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="274">
+  <name>Blizzard_TalentUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="275">
+  <name>TidyPlates_GreyExtension.toc</name>
+  <extension>.toc</extension>
+  <date>2010-04-16 20:58:49</date>
+  <size>178</size>
+ </file>
+ <file fileID="276">
+  <name>GreyExtension.lua</name>
+  <extension>.lua</extension>
+  <date>2010-04-17 14:03:17</date>
+  <size>3503</size>
+ </file>
+ <file fileID="277">
+  <name>Blizzard_CombatLog.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="278">
+  <name>GUI_Realtime.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>14380</size>
+ </file>
+ <file fileID="279">
+  <name>GUI_Main.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>44237</size>
+ </file>
+ <file fileID="280">
+  <name>Blizzard_InspectUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="281">
+  <name>Blizzard_GlyphUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="282">
+  <name>zonefilters.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>2902</size>
+ </file>
+ <file fileID="283">
+  <name>Widgets.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>6394</size>
+ </file>
+ <file fileID="284">
+  <name>GUI_Reset.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>3152</size>
+ </file>
+ <file fileID="285">
+  <name>Fights.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>2733</size>
+ </file>
+ <file fileID="286">
+  <name>Recount.toc</name>
+  <extension>.toc</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>1548</size>
+ </file>
+ <file fileID="287">
+  <name>GUI_Report.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>5874</size>
+ </file>
+ <file fileID="288">
+  <name>Changelog-Recount-v3.3h release.txt</name>
+  <extension>.txt</extension>
+  <date>2010-03-30 14:21:37</date>
+  <size>1408</size>
+ </file>
+ <file fileID="289">
+  <name>debug.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>1400</size>
+ </file>
+ <file fileID="290">
+  <name>Fonts.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>1051</size>
+ </file>
+ <file fileID="291">
+  <name>roster.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>4572</size>
+ </file>
+ <file fileID="292">
+  <name>LazySync.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>23814</size>
+ </file>
+ <file fileID="293">
+  <name>WindowOrder.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>4015</size>
+ </file>
+ <file fileID="294">
+  <name>deletion.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>4609</size>
+ </file>
+ <file fileID="295">
+  <name>GUI_Graph.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>37513</size>
+ </file>
+ <file fileID="296">
+  <name>Recount.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>64926</size>
+ </file>
+ <file fileID="297">
+  <name>Tracker.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>76846</size>
+ </file>
+ <file fileID="298">
+  <name>GUI_Detail.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>67893</size>
+ </file>
+ <file fileID="299">
+  <name>GUI_DeathGraph.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>1558</size>
+ </file>
+ <file fileID="300">
+  <name>colors.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>9276</size>
+ </file>
+ <file fileID="301">
+  <name>Blizzard_BindingUI.pub</name>
+  <extension>.pub</extension>
+  <date>2023-06-19 12:36:41</date>
+  <size>257</size>
+ </file>
+ <file fileID="302">
+  <name>LICENSE</name>
+  <extension></extension>
+  <date>2021-11-29 21:54:57</date>
+  <size>1054</size>
+ </file>
+ <file fileID="303">
+  <name>AddOns.zip</name>
+  <extension>.zip</extension>
+  <date>2023-10-16 19:02:36</date>
+  <size>6327927</size>
+ </file>
+ <file fileID="304">
+  <name>cc.lua</name>
+  <extension>.lua</extension>
+  <date>2021-11-29 21:54:57</date>
+  <size>9687</size>
+ </file>
+ <file fileID="305">
+  <name>OmniCC.toc</name>
+  <extension>.toc</extension>
+  <date>2021-11-29 21:54:57</date>
+  <size>280</size>
+ </file>
+ <file fileID="306">
+  <name>README</name>
+  <extension></extension>
+  <date>2021-11-29 21:54:57</date>
+  <size>1519</size>
+ </file>
+ <file fileID="307">
+  <name>effects.xml</name>
+  <extension>.xml</extension>
+  <date>2021-11-29 21:54:57</date>
+  <size>122</size>
+ </file>
+ <file fileID="308">
+  <name>config.lua</name>
+  <extension>.lua</extension>
+  <date>2021-11-29 21:54:57</date>
+  <size>11301</size>
+ </file>
+ <file fileID="309">
+  <name>castBar.lua</name>
+  <extension>.lua</extension>
+  <date>2009-12-07 12:44:37</date>
+  <size>5652</size>
+ </file>
+ <file fileID="310">
+  <name>Dominos_Roll.toc</name>
+  <extension>.toc</extension>
+  <date>2009-12-07 23:15:23</date>
+  <size>236</size>
+ </file>
+ <file fileID="311">
+  <name>rollBar.lua</name>
+  <extension>.lua</extension>
+  <date>2009-11-25 19:06:57</date>
+  <size>2559</size>
+ </file>
+ <file fileID="312">
+  <name>OmniCC_Config.toc</name>
+  <extension>.toc</extension>
+  <date>2021-11-29 21:54:57</date>
+  <size>246</size>
+ </file>
+ <file fileID="313">
+  <name>Dominos_Totems.toc</name>
+  <extension>.toc</extension>
+  <date>2009-12-07 23:15:23</date>
+  <size>155</size>
+ </file>
+ <file fileID="314">
+  <name>totemBar.lua</name>
+  <extension>.lua</extension>
+  <date>2010-02-17 07:53:09</date>
+  <size>5186</size>
+ </file>
+ <file fileID="315">
+  <name>spellButton.lua</name>
+  <extension>.lua</extension>
+  <date>2010-02-11 20:53:01</date>
+  <size>6990</size>
+ </file>
+ <file fileID="316">
+  <name>Dominos_Cast.toc</name>
+  <extension>.toc</extension>
+  <date>2009-12-07 23:15:23</date>
+  <size>218</size>
+ </file>
+ <file fileID="317">
+  <name>castBar.xml</name>
+  <extension>.xml</extension>
+  <date>2009-08-04 07:08:39</date>
+  <size>3653</size>
+ </file>
+ <file fileID="318">
+  <name>GatherStrings.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 14:11:33</date>
+  <size>63282</size>
+ </file>
+ <file fileID="319">
+  <name>menuBar.lua</name>
+  <extension>.lua</extension>
+  <date>2009-10-08 17:48:09</date>
+  <size>4485</size>
+ </file>
+ <file fileID="320">
+  <name>Gems.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>19987</size>
+ </file>
+ <file fileID="321">
+  <name>GemsBurningCrusade.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>16466</size>
+ </file>
+ <file fileID="322">
+  <name>Plugin.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>8323</size>
+ </file>
+ <file fileID="323">
+  <name>SwatterIcon.blp</name>
+  <extension>.blp</extension>
+  <date>2007-11-10 09:36:29</date>
+  <size>6660</size>
+ </file>
+ <file fileID="324">
+  <name>Bagnon_GuildBank.toc</name>
+  <extension>.toc</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>243</size>
+ </file>
+ <file fileID="325">
+  <name>TargetBox.tga</name>
+  <extension>.tga</extension>
+  <date>2010-03-15 23:24:27</date>
+  <size>32812</size>
+ </file>
+ <file fileID="326">
+  <name>Localization.zhTW.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>50088</size>
+ </file>
+ <file fileID="327">
+  <name>actionBar.lua</name>
+  <extension>.lua</extension>
+  <date>2010-05-27 19:30:13</date>
+  <size>19512</size>
+ </file>
+ <file fileID="328">
+  <name>Dominos.lua</name>
+  <extension>.lua</extension>
+  <date>2010-06-26 15:12:55</date>
+  <size>25192</size>
+ </file>
+ <file fileID="329">
+  <name>Dominos.toc</name>
+  <extension>.toc</extension>
+  <date>2010-07-24 16:30:09</date>
+  <size>413</size>
+ </file>
+ <file fileID="330">
+  <name>petBar.lua</name>
+  <extension>.lua</extension>
+  <date>2010-07-12 23:56:15</date>
+  <size>4341</size>
+ </file>
+ <file fileID="331">
+  <name>Dominos.tga</name>
+  <extension>.tga</extension>
+  <date>2008-10-13 22:03:29</date>
+  <size>9320</size>
+ </file>
+ <file fileID="332">
+  <name>fadeManager.lua</name>
+  <extension>.lua</extension>
+  <date>2010-05-29 15:40:13</date>
+  <size>3949</size>
+ </file>
+ <file fileID="333">
+  <name>drag.lua</name>
+  <extension>.lua</extension>
+  <date>2009-11-25 19:06:57</date>
+  <size>4737</size>
+ </file>
+ <file fileID="334">
+  <name>classBar.lua</name>
+  <extension>.lua</extension>
+  <date>2009-09-13 15:17:57</date>
+  <size>6970</size>
+ </file>
+ <file fileID="335">
+  <name>vehicleBar.lua</name>
+  <extension>.lua</extension>
+  <date>2010-07-12 23:56:15</date>
+  <size>5419</size>
+ </file>
+ <file fileID="336">
+  <name>bindableButton.lua</name>
+  <extension>.lua</extension>
+  <date>2009-08-17 17:49:51</date>
+  <size>4530</size>
+ </file>
+ <file fileID="337">
+  <name>minimap.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-11 11:48:23</date>
+  <size>6379</size>
+ </file>
+ <file fileID="338">
+  <name>bagBar.lua</name>
+  <extension>.lua</extension>
+  <date>2009-11-25 19:06:57</date>
+  <size>5983</size>
+ </file>
+ <file fileID="339">
+  <name>Localization.koKR.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>56081</size>
+ </file>
+ <file fileID="340">
+  <name>UIStrings.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>23397</size>
+ </file>
+ <file fileID="341">
+  <name>Pawn.lua</name>
+  <extension>.lua</extension>
+  <date>2008-09-18 15:52:19</date>
+  <size>93734</size>
+ </file>
+ <file fileID="342">
+  <name>Version history.htm</name>
+  <extension>.htm</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>194645</size>
+ </file>
+ <file fileID="343">
+  <name>Localization.zhCN.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>49119</size>
+ </file>
+ <file fileID="344">
+  <name>Gatherer_HUD.toc</name>
+  <extension>.toc</extension>
+  <date>2010-03-28 00:50:17</date>
+  <size>955</size>
+ </file>
+ <file fileID="345">
+  <name>HudShape.blp</name>
+  <extension>.blp</extension>
+  <date>2008-01-23 03:08:51</date>
+  <size>23044</size>
+ </file>
+ <file fileID="346">
+  <name>GatherHUD.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>12840</size>
+ </file>
+ <file fileID="347">
+  <name>Version.txt</name>
+  <extension>.txt</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>92</size>
+ </file>
+ <file fileID="348">
+  <name>GatherHUD.xml</name>
+  <extension>.xml</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>2732</size>
+ </file>
+ <file fileID="349">
+  <name>Strings.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>0</size>
+ </file>
+ <file fileID="350">
+  <name>ClassicHawsJon.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>61675</size>
+ </file>
+ <file fileID="351">
+  <name>ScaleTemplates.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>16695</size>
+ </file>
+ <file fileID="352">
+  <name>panel.lua</name>
+  <extension>.lua</extension>
+  <date>2010-06-26 15:12:25</date>
+  <size>4811</size>
+ </file>
+ <file fileID="353">
+  <name>menu.lua</name>
+  <extension>.lua</extension>
+  <date>2010-05-26 21:06:17</date>
+  <size>11923</size>
+ </file>
+ <file fileID="354">
+  <name>Dominos_Config.toc</name>
+  <extension>.toc</extension>
+  <date>2009-12-07 23:15:23</date>
+  <size>285</size>
+ </file>
+ <file fileID="355">
+  <name>profiles.lua</name>
+  <extension>.lua</extension>
+  <date>2010-06-26 15:12:25</date>
+  <size>6957</size>
+ </file>
+ <file fileID="356">
+  <name>GatherConvert.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 13:59:47</date>
+  <size>14906</size>
+ </file>
+ <file fileID="357">
+  <name>GemsWrath.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>42704</size>
+ </file>
+ <file fileID="358">
+  <name>Localization.deDE.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>55983</size>
+ </file>
+ <file fileID="359">
+  <name>Pawn.toc</name>
+  <extension>.toc</extension>
+  <date>2008-09-11 00:38:11</date>
+  <size>363</size>
+ </file>
+ <file fileID="360">
+  <name>Localization.ruRU.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>73917</size>
+ </file>
+ <file fileID="361">
+  <name>Localization.itIT.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>51939</size>
+ </file>
+ <file fileID="362">
+  <name>Localization.lua</name>
+  <extension>.lua</extension>
+  <date>2008-09-11 01:05:05</date>
+  <size>51303</size>
+ </file>
+ <file fileID="363">
+  <name>Localization.frFR.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>60171</size>
+ </file>
+ <file fileID="364">
+  <name>Localization.es.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>63976</size>
+ </file>
+ <file fileID="365">
+  <name>PawnUI.lua</name>
+  <extension>.lua</extension>
+  <date>2008-09-11 02:19:43</date>
+  <size>55269</size>
+ </file>
+ <file fileID="366">
+  <name>font.lua</name>
+  <extension>.lua</extension>
+  <date>2021-11-29 21:54:57</date>
+  <size>4774</size>
+ </file>
+ <file fileID="367">
+  <name>filter.lua</name>
+  <extension>.lua</extension>
+  <date>2021-11-29 21:54:57</date>
+  <size>2656</size>
+ </file>
+ <file fileID="368">
+  <name>TrackerModule_PowerGains.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>8153</size>
+ </file>
+ <file fileID="369">
+  <name>PawnUI.xml</name>
+  <extension>.xml</extension>
+  <date>2008-08-07 00:54:23</date>
+  <size>58241</size>
+ </file>
+ <file fileID="370">
+  <name>arrow.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>4140</size>
+ </file>
+ <file fileID="371">
+  <name>ResizeGripRight.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>2085</size>
+ </file>
+ <file fileID="372">
+  <name>otravi-semi-full-border.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>3286</size>
+ </file>
+ <file fileID="373">
+  <name>icon-config.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>4140</size>
+ </file>
+ <file fileID="374">
+  <name>icon-reset.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>1068</size>
+ </file>
+ <file fileID="375">
+  <name>TrackerModule_Interrupts.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>4282</size>
+ </file>
+ <file fileID="376">
+  <name>TrackerModule_Resurrection.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>2568</size>
+ </file>
+ <file fileID="377">
+  <name>TrackerModule_CCBreakers.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>4663</size>
+ </file>
+ <file fileID="378">
+  <name>TrackerModule_Dispels.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>5224</size>
+ </file>
+ <file fileID="379">
+  <name>Recount-frFR.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>18605</size>
+ </file>
+ <file fileID="380">
+  <name>Recount-koKR.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>17530</size>
+ </file>
+ <file fileID="381">
+  <name>Recount-esES.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>17738</size>
+ </file>
+ <file fileID="382">
+  <name>Recount-deDE.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>17813</size>
+ </file>
+ <file fileID="383">
+  <name>Recount-zhCN.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>16787</size>
+ </file>
+ <file fileID="384">
+  <name>TooltipParsing.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>27940</size>
+ </file>
+ <file fileID="385">
+  <name>GemsClassic.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>448</size>
+ </file>
+ <file fileID="386">
+  <name>Readme.htm</name>
+  <extension>.htm</extension>
+  <date>2008-09-18 16:02:17</date>
+  <size>76607</size>
+ </file>
+ <file fileID="387">
+  <name>ItemIDs.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>439</size>
+ </file>
+ <file fileID="388">
+  <name>icon-summary.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>2033</size>
+ </file>
+ <file fileID="389">
+  <name>ResizeGripLeft.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>1068</size>
+ </file>
+ <file fileID="390">
+  <name>GatherManifest.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>4299</size>
+ </file>
+ <file fileID="391">
+  <name>Recount-enUS.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>11479</size>
+ </file>
+ <file fileID="392">
+  <name>Recount-ruRU.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>23717</size>
+ </file>
+ <file fileID="393">
+  <name>Recount-zhTW.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>16732</size>
+ </file>
+ <file fileID="394">
+  <name>Core.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>3686</size>
+ </file>
+ <file fileID="395">
+  <name>shine.lua</name>
+  <extension>.lua</extension>
+  <date>2021-11-29 21:54:57</date>
+  <size>2222</size>
+ </file>
+ <file fileID="396">
+  <name>GatherMapNotes.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>7179</size>
+ </file>
+ <file fileID="397">
+  <name>GatherMain.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>2522</size>
+ </file>
+ <file fileID="398">
+  <name>GatherUtil.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 14:11:33</date>
+  <size>15745</size>
+ </file>
+ <file fileID="399">
+  <name>GathererNodeSearch.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 14:23:53</date>
+  <size>11374</size>
+ </file>
+ <file fileID="400">
+  <name>GatherCategories.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>12992</size>
+ </file>
+ <file fileID="401">
+  <name>GatherEvent.lua</name>
+  <extension>.lua</extension>
+  <date>2009-08-06 00:30:57</date>
+  <size>6196</size>
+ </file>
+ <file fileID="402">
+  <name>GatherNotifications.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>3255</size>
+ </file>
+ <file fileID="403">
+  <name>GatherMapNotes.xml</name>
+  <extension>.xml</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>3875</size>
+ </file>
+ <file fileID="404">
+  <name>tab.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>6037</size>
+ </file>
+ <file fileID="405">
+  <name>tabFrame.lua</name>
+  <extension>.lua</extension>
+  <date>2023-04-27 07:28:49</date>
+  <size>2589</size>
+ </file>
+ <file fileID="406">
+  <name>listEditor.lua</name>
+  <extension>.lua</extension>
+  <date>2021-11-29 21:54:57</date>
+  <size>10210</size>
+ </file>
+ <file fileID="407">
+  <name>fontSelector.lua</name>
+  <extension>.lua</extension>
+  <date>2021-11-29 21:54:57</date>
+  <size>6610</size>
+ </file>
+ <file fileID="408">
+  <name>GatherMain.xml</name>
+  <extension>.xml</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>1868</size>
+ </file>
+ <file fileID="409">
+  <name>GatherMiniNotes.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>11580</size>
+ </file>
+ <file fileID="410">
+  <name>GatherZoneTokens.lua</name>
+  <extension>.lua</extension>
+  <date>2009-08-06 00:30:57</date>
+  <size>7850</size>
+ </file>
+ <file fileID="411">
+  <name>GatherIcons.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>7820</size>
+ </file>
+ <file fileID="412">
+  <name>GatherSpecialCases.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>3889</size>
+ </file>
+ <file fileID="413">
+  <name>GatherPlugins.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>2672</size>
+ </file>
+ <file fileID="414">
+  <name>GatherConfig.xml</name>
+  <extension>.xml</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>10513</size>
+ </file>
+ <file fileID="415">
+  <name>gpl.txt</name>
+  <extension>.txt</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>18326</size>
+ </file>
+ <file fileID="416">
+  <name>GatherLocale.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>2610</size>
+ </file>
+ <file fileID="417">
+  <name>GatherApi.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>3461</size>
+ </file>
+ <file fileID="418">
+  <name>Readme.txt</name>
+  <extension>.txt</extension>
+  <date>2009-08-06 00:30:57</date>
+  <size>2469</size>
+ </file>
+ <file fileID="419">
+  <name>GatherObjects.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>1721</size>
+ </file>
+ <file fileID="420">
+  <name>GatherConstants.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>5080</size>
+ </file>
+ <file fileID="421">
+  <name>GatherConfig.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>35083</size>
+ </file>
+ <file fileID="422">
+  <name>GatherMiniIcon.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 14:02:47</date>
+  <size>5580</size>
+ </file>
+ <file fileID="423">
+  <name>GatherReport.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 14:23:29</date>
+  <size>27093</size>
+ </file>
+ <file fileID="424">
+  <name>GatherNodes.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>61605</size>
+ </file>
+ <file fileID="425">
+  <name>Localization.ptBR.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>56324</size>
+ </file>
+ <file fileID="426">
+  <name>AskMrRobot.lua</name>
+  <extension>.lua</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>11842</size>
+ </file>
+ <file fileID="427">
+  <name>Sample scales.htm</name>
+  <extension>.htm</extension>
+  <date>2008-08-16 11:16:15</date>
+  <size>13198</size>
+ </file>
+ <file fileID="428">
+  <name>pulse.lua</name>
+  <extension>.lua</extension>
+  <date>2021-11-29 21:54:57</date>
+  <size>2417</size>
+ </file>
+ <file fileID="429">
+  <name>GatherStorage.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>33087</size>
+ </file>
+ <file fileID="430">
+  <name>GatherMiniNotes.xml</name>
+  <extension>.xml</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>2559</size>
+ </file>
+ <file fileID="431">
+  <name>GatherTooltip.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>2628</size>
+ </file>
+ <file fileID="432">
+  <name>GatherComm.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 13:54:31</date>
+  <size>8908</size>
+ </file>
+ <file fileID="433">
+  <name>Gatherer.toc</name>
+  <extension>.toc</extension>
+  <date>2010-03-28 00:50:09</date>
+  <size>1868</size>
+ </file>
+ <file fileID="434">
+  <name>GatherDropRates.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>8232</size>
+ </file>
+ <file fileID="435">
+  <name>MrRobot.tga</name>
+  <extension>.tga</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>7031</size>
+ </file>
+ <file fileID="436">
+  <name>GatherNotifications.xml</name>
+  <extension>.xml</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>3465</size>
+ </file>
+ <file fileID="437">
+  <name>GatherCommand.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>7500</size>
+ </file>
+ <file fileID="438">
+  <name>VgerCore.css</name>
+  <extension>.css</extension>
+  <date>2008-01-24 00:30:15</date>
+  <size>876</size>
+ </file>
+ <file fileID="439">
+  <name>Diamond.tga</name>
+  <extension>.tga</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>2439</size>
+ </file>
+ <file fileID="440">
+  <name>VgerCore.lua</name>
+  <extension>.lua</extension>
+  <date>2008-08-06 00:01:29</date>
+  <size>8695</size>
+ </file>
+ <file fileID="441">
+  <name>PawnLogo.tga</name>
+  <extension>.tga</extension>
+  <date>2008-01-24 18:20:01</date>
+  <size>22566</size>
+ </file>
+ <file fileID="442">
+  <name>CompareBar.tga</name>
+  <extension>.tga</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>69280</size>
+ </file>
+ <file fileID="443">
+  <name>FlyPaper.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-13 07:01:37</date>
+  <size>8530</size>
+ </file>
+ <file fileID="444">
+  <name>Locale-esMX.lua</name>
+  <extension>.lua</extension>
+  <date>2009-10-07 18:55:11</date>
+  <size>2455</size>
+ </file>
+ <file fileID="445">
+  <name>Locale-frFR.lua</name>
+  <extension>.lua</extension>
+  <date>2009-10-07 18:55:11</date>
+  <size>2458</size>
+ </file>
+ <file fileID="446">
+  <name>Locale-deDE.lua</name>
+  <extension>.lua</extension>
+  <date>2009-10-07 18:55:11</date>
+  <size>2470</size>
+ </file>
+ <file fileID="447">
+  <name>Locale-zhTW.lua</name>
+  <extension>.lua</extension>
+  <date>2009-10-07 18:55:11</date>
+  <size>2482</size>
+ </file>
+ <file fileID="448">
+  <name>Locale-ruRU.lua</name>
+  <extension>.lua</extension>
+  <date>2009-10-07 18:55:11</date>
+  <size>2812</size>
+ </file>
+ <file fileID="449">
+  <name>Locale-enUS.lua</name>
+  <extension>.lua</extension>
+  <date>2009-10-07 18:55:11</date>
+  <size>4363</size>
+ </file>
+ <file fileID="450">
+  <name>Locale-koKR.lua</name>
+  <extension>.lua</extension>
+  <date>2009-10-07 18:55:11</date>
+  <size>2613</size>
+ </file>
+ <file fileID="451">
+  <name>Locale-zhCN.lua</name>
+  <extension>.lua</extension>
+  <date>2009-10-07 18:55:11</date>
+  <size>2471</size>
+ </file>
+ <file fileID="452">
+  <name>LibKeyBound-1.0.lua</name>
+  <extension>.lua</extension>
+  <date>2010-03-23 15:18:03</date>
+  <size>18082</size>
+ </file>
+ <file fileID="453">
+  <name>Locale-esES.lua</name>
+  <extension>.lua</extension>
+  <date>2009-10-07 18:55:11</date>
+  <size>2449</size>
+ </file>
+ <file fileID="454">
+  <name>Classy-1.0.lua</name>
+  <extension>.lua</extension>
+  <date>2021-11-29 21:54:57</date>
+  <size>539</size>
+ </file>
+ <file fileID="455">
+  <name>Background.blp</name>
+  <extension>.blp</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>1399316</size>
+ </file>
+ <file fileID="456">
+  <name>AceDB-3.0.xml</name>
+  <extension>.xml</extension>
+  <date>2007-10-23 18:48:11</date>
+  <size>211</size>
+ </file>
+ <file fileID="457">
+  <name>AceDB-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2010-06-19 04:01:47</date>
+  <size>24844</size>
+ </file>
+ <file fileID="458">
+  <name>AceTimer-3.0.xml</name>
+  <extension>.xml</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>211</size>
+ </file>
+ <file fileID="459">
+  <name>AceSerializer-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>8786</size>
+ </file>
+ <file fileID="460">
+  <name>AceSerializer-3.0.xml</name>
+  <extension>.xml</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>216</size>
+ </file>
+ <file fileID="461">
+  <name>ChatThrottleLib.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>14434</size>
+ </file>
+ <file fileID="462">
+  <name>AceComm-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>11438</size>
+ </file>
+ <file fileID="463">
+  <name>AceComm-3.0.xml</name>
+  <extension>.xml</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>248</size>
+ </file>
+ <file fileID="464">
+  <name>AceDBOptions-3.0.xml</name>
+  <extension>.xml</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>215</size>
+ </file>
+ <file fileID="465">
+  <name>AceDBOptions-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>18502</size>
+ </file>
+ <file fileID="466">
+  <name>AceTimer-3.0.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>17508</size>
+ </file>
+ <file fileID="467">
+  <name>CompareBarRight.tga</name>
+  <extension>.tga</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>26843</size>
+ </file>
+ <file fileID="468">
+  <name>1-32.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>13995</size>
+ </file>
+ <file fileID="469">
+  <name>LibGraph-2.0.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>56250</size>
+ </file>
+ <file fileID="470">
+  <name>1-4.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>14824</size>
+ </file>
+ <file fileID="471">
+  <name>line.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>764</size>
+ </file>
+ <file fileID="472">
+  <name>1-64.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>13859</size>
+ </file>
+ <file fileID="473">
+  <name>1-8.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>14863</size>
+ </file>
+ <file fileID="474">
+  <name>1-128.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>13781</size>
+ </file>
+ <file fileID="475">
+  <name>1-2.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>18611</size>
+ </file>
+ <file fileID="476">
+  <name>1-16.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>14332</size>
+ </file>
+ <file fileID="477">
+  <name>HorizontalBar.tga</name>
+  <extension>.tga</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>14514</size>
+ </file>
+ <file fileID="478">
+  <name>PawnButton.tga</name>
+  <extension>.tga</extension>
+  <date>2008-02-02 12:35:59</date>
+  <size>42477</size>
+ </file>
+ <file fileID="479">
+  <name>DowngradeArrow.tga</name>
+  <extension>.tga</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>2805</size>
+ </file>
+ <file fileID="480">
+  <name>UpgradeArrow.tga</name>
+  <extension>.tga</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>2761</size>
+ </file>
+ <file fileID="481">
+  <name>UpgradeArrowBig.tga</name>
+  <extension>.tga</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>26805</size>
+ </file>
+ <file fileID="482">
+  <name>CompareBarLeft.tga</name>
+  <extension>.tga</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>26962</size>
+ </file>
+ <file fileID="483">
+  <name>CompareBanner.blp</name>
+  <extension>.blp</extension>
+  <date>2023-05-07 20:47:31</date>
+  <size>175972</size>
+ </file>
+ <file fileID="484">
+  <name>UI-ScrollBar-ScrollDownButton-Disabled.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>4140</size>
+ </file>
+ <file fileID="485">
+  <name>LibBossIDs-1.0.toc</name>
+  <extension>.toc</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>381</size>
+ </file>
+ <file fileID="486">
+  <name>triangle.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>6152</size>
+ </file>
+ <file fileID="487">
+  <name>1-1.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>21663</size>
+ </file>
+ <file fileID="488">
+  <name>sline.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>684</size>
+ </file>
+ <file fileID="489">
+  <name>UI-ScrollBar-ScrollDownButton-Up.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>4140</size>
+ </file>
+ <file fileID="490">
+  <name>LibBossIDs-1.0.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>31627</size>
+ </file>
+ <file fileID="491">
+  <name>UI-ScrollBar-Knob.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>4140</size>
+ </file>
+ <file fileID="492">
+  <name>UI-ScrollBar-ScrollDownButton-Overlay.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>494</size>
+ </file>
+ <file fileID="493">
+  <name>UI-ScrollBar-ScrollUpButton-Up.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>4140</size>
+ </file>
+ <file fileID="494">
+  <name>UI-ScrollBar-ScrollUpButton-Overlay.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>494</size>
+ </file>
+ <file fileID="495">
+  <name>UI-ScrollBar-ScrollUpButton-Highlight.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>1622</size>
+ </file>
+ <file fileID="496">
+  <name>UI-ScrollBar-ScrollDownButton-Highlight.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>1622</size>
+ </file>
+ <file fileID="497">
+  <name>UI-ScrollBar-ScrollUpButton-Disabled.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>4140</size>
+ </file>
+ <file fileID="498">
+  <name>LibSwag.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>16314</size>
+ </file>
+ <file fileID="499">
+  <name>GatherOrb.tga</name>
+  <extension>.tga</extension>
+  <date>2006-10-26 23:43:35</date>
+  <size>16428</size>
+ </file>
+ <file fileID="500">
+  <name>Otravi.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>2220</size>
+ </file>
+ <file fileID="501">
+  <name>UngoroCrystal.tga</name>
+  <extension>.tga</extension>
+  <date>2006-10-26 23:43:35</date>
+  <size>1068</size>
+ </file>
+ <file fileID="502">
+  <name>Source.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>582</size>
+ </file>
+ <file fileID="503">
+  <name>UngoroSprout.tga</name>
+  <extension>.tga</extension>
+  <date>2006-10-26 23:43:35</date>
+  <size>1068</size>
+ </file>
+ <file fileID="504">
+  <name>Aluminium.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>4352</size>
+ </file>
+ <file fileID="505">
+  <name>BantoBar.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>25356</size>
+ </file>
+ <file fileID="506">
+  <name>Minimalist.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>1304</size>
+ </file>
+ <file fileID="507">
+  <name>Flat.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>338</size>
+ </file>
+ <file fileID="508">
+  <name>Armory.tga</name>
+  <extension>.tga</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>812</size>
+ </file>
+ <file fileID="509">
+  <name>AstrolabeMapMonitor.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>8301</size>
+ </file>
+ <file fileID="510">
+  <name>Region.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>557</size>
+ </file>
+ <file fileID="511">
+  <name>Type.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>499</size>
+ </file>
+ <file fileID="512">
+  <name>License.txt</name>
+  <extension>.txt</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>598</size>
+ </file>
+ <file fileID="513">
+  <name>DongleStub.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>4194</size>
+ </file>
+ <file fileID="514">
+  <name>Astrolabe.lua</name>
+  <extension>.lua</extension>
+  <date>2009-08-06 03:06:35</date>
+  <size>48781</size>
+ </file>
+ <file fileID="515">
+  <name>White.tga</name>
+  <extension>.tga</extension>
+  <date>2006-10-26 23:43:35</date>
+  <size>1068</size>
+ </file>
+ <file fileID="516">
+  <name>Magenta.tga</name>
+  <extension>.tga</extension>
+  <date>2006-10-26 23:43:35</date>
+  <size>1068</size>
+ </file>
+ <file fileID="517">
+  <name>Cyan.tga</name>
+  <extension>.tga</extension>
+  <date>2006-10-26 23:43:35</date>
+  <size>1068</size>
+ </file>
+ <file fileID="518">
+  <name>Black.tga</name>
+  <extension>.tga</extension>
+  <date>2006-10-26 23:43:35</date>
+  <size>1068</size>
+ </file>
+ <file fileID="519">
+  <name>Test.tga</name>
+  <extension>.tga</extension>
+  <date>2006-10-26 23:43:35</date>
+  <size>1068</size>
+ </file>
+ <file fileID="520">
+  <name>Herb.tga</name>
+  <extension>.tga</extension>
+  <date>2006-10-26 23:43:35</date>
+  <size>1068</size>
+ </file>
+ <file fileID="521">
+  <name>Ore.tga</name>
+  <extension>.tga</extension>
+  <date>2006-10-26 23:43:35</date>
+  <size>1068</size>
+ </file>
+ <file fileID="522">
+  <name>Chest.tga</name>
+  <extension>.tga</extension>
+  <date>2006-10-26 23:43:35</date>
+  <size>1068</size>
+ </file>
+ <file fileID="523">
+  <name>ImportModules.xml</name>
+  <extension>.xml</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>160</size>
+ </file>
+ <file fileID="524">
+  <name>ImportCTMapMod.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>3007</size>
+ </file>
+ <file fileID="525">
+  <name>AceGUIWidget-InteractiveLabel.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>5383</size>
+ </file>
+ <file fileID="526">
+  <name>AceGUIWidget-Window.lua</name>
+  <extension>.lua</extension>
+  <date>2021-05-21 21:38:31</date>
+  <size>9726</size>
+ </file>
+ <file fileID="527">
+  <name>Titanium.blp</name>
+  <extension>.blp</extension>
+  <date>2009-04-16 02:13:47</date>
+  <size>6660</size>
+ </file>
+ <file fileID="528">
+  <name>Thorium.blp</name>
+  <extension>.blp</extension>
+  <date>2007-01-29 15:51:57</date>
+  <size>6660</size>
+ </file>
+ <file fileID="529">
+  <name>Adamantite.blp</name>
+  <extension>.blp</extension>
+  <date>2007-01-29 15:51:57</date>
+  <size>6660</size>
+ </file>
+ <file fileID="530">
+  <name>Iron.blp</name>
+  <extension>.blp</extension>
+  <date>2007-01-29 15:51:57</date>
+  <size>6660</size>
+ </file>
+ <file fileID="531">
+  <name>Silver.blp</name>
+  <extension>.blp</extension>
+  <date>2007-01-29 16:07:21</date>
+  <size>6660</size>
+ </file>
+ <file fileID="532">
+  <name>Cobalt.blp</name>
+  <extension>.blp</extension>
+  <date>2009-04-16 02:13:47</date>
+  <size>6660</size>
+ </file>
+ <file fileID="533">
+  <name>RichThorium.blp</name>
+  <extension>.blp</extension>
+  <date>2007-01-29 16:09:07</date>
+  <size>6660</size>
+ </file>
+ <file fileID="534">
+  <name>Nethercite.blp</name>
+  <extension>.blp</extension>
+  <date>2007-09-23 01:38:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="535">
+  <name>Khorium.blp</name>
+  <extension>.blp</extension>
+  <date>2007-01-29 14:05:19</date>
+  <size>6660</size>
+ </file>
+ <file fileID="536">
+  <name>Tin.blp</name>
+  <extension>.blp</extension>
+  <date>2007-01-29 15:51:57</date>
+  <size>6660</size>
+ </file>
+ <file fileID="537">
+  <name>LesserBloodstone.blp</name>
+  <extension>.blp</extension>
+  <date>2007-01-29 15:51:57</date>
+  <size>6660</size>
+ </file>
+ <file fileID="538">
+  <name>Saronite.blp</name>
+  <extension>.blp</extension>
+  <date>2009-04-16 02:13:47</date>
+  <size>6660</size>
+ </file>
+ <file fileID="539">
+  <name>DarkIron.blp</name>
+  <extension>.blp</extension>
+  <date>2007-01-29 15:51:57</date>
+  <size>6660</size>
+ </file>
+ <file fileID="540">
+  <name>FelIron.blp</name>
+  <extension>.blp</extension>
+  <date>2007-01-29 23:42:05</date>
+  <size>6660</size>
+ </file>
+ <file fileID="541">
+  <name>Mithril.blp</name>
+  <extension>.blp</extension>
+  <date>2007-01-29 15:51:57</date>
+  <size>6660</size>
+ </file>
+ <file fileID="542">
+  <name>Gold.blp</name>
+  <extension>.blp</extension>
+  <date>2007-01-29 15:51:57</date>
+  <size>6660</size>
+ </file>
+ <file fileID="543">
+  <name>TrueSilver.blp</name>
+  <extension>.blp</extension>
+  <date>2007-01-29 15:51:57</date>
+  <size>6660</size>
+ </file>
+ <file fileID="544">
+  <name>Copper.blp</name>
+  <extension>.blp</extension>
+  <date>2007-01-29 15:51:57</date>
+  <size>6660</size>
+ </file>
+ <file fileID="545">
+  <name>map.blp</name>
+  <extension>.blp</extension>
+  <date>2010-03-29 12:18:19</date>
+  <size>3389462</size>
+ </file>
+ <file fileID="546">
+  <name>FrostLotus.blp</name>
+  <extension>.blp</extension>
+  <date>2009-04-16 02:13:47</date>
+  <size>6660</size>
+ </file>
+ <file fileID="547">
+  <name>Wintersbite.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-15 00:50:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="548">
+  <name>Netherbloom.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-06 23:39:41</date>
+  <size>6660</size>
+ </file>
+ <file fileID="549">
+  <name>PurpleLotus.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="550">
+  <name>Configator.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>58311</size>
+ </file>
+ <file fileID="551">
+  <name>Configator.toc</name>
+  <extension>.toc</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>414</size>
+ </file>
+ <file fileID="552">
+  <name>PanelScroller.xml</name>
+  <extension>.xml</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>7846</size>
+ </file>
+ <file fileID="553">
+  <name>Chest.blp</name>
+  <extension>.blp</extension>
+  <date>2007-09-24 15:28:17</date>
+  <size>6660</size>
+ </file>
+ <file fileID="554">
+  <name>Songflower.blp</name>
+  <extension>.blp</extension>
+  <date>2007-09-23 01:38:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="555">
+  <name>WhipperRoot.blp</name>
+  <extension>.blp</extension>
+  <date>2007-09-23 01:38:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="556">
+  <name>Glowcap.blp</name>
+  <extension>.blp</extension>
+  <date>2007-09-23 01:38:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="557">
+  <name>BloodHero.blp</name>
+  <extension>.blp</extension>
+  <date>2007-09-24 15:28:17</date>
+  <size>6660</size>
+ </file>
+ <file fileID="558">
+  <name>Egg.blp</name>
+  <extension>.blp</extension>
+  <date>2007-09-23 01:38:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="559">
+  <name>ShellfishTrap.blp</name>
+  <extension>.blp</extension>
+  <date>2007-09-24 15:28:17</date>
+  <size>6660</size>
+ </file>
+ <file fileID="560">
+  <name>WindBlossom.blp</name>
+  <extension>.blp</extension>
+  <date>2007-09-23 01:38:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="561">
+  <name>Barrel.blp</name>
+  <extension>.blp</extension>
+  <date>2007-09-24 23:38:37</date>
+  <size>6660</size>
+ </file>
+ <file fileID="562">
+  <name>Clam.blp</name>
+  <extension>.blp</extension>
+  <date>2007-09-24 15:28:17</date>
+  <size>6660</size>
+ </file>
+ <file fileID="563">
+  <name>NightDragon.blp</name>
+  <extension>.blp</extension>
+  <date>2007-09-23 01:38:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="564">
+  <name>Footlocker.blp</name>
+  <extension>.blp</extension>
+  <date>2007-09-24 15:46:21</date>
+  <size>6660</size>
+ </file>
+ <file fileID="565">
+  <name>Crate.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="566">
+  <name>ArthasTears.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="567">
+  <name>Babylonian.toc</name>
+  <extension>.toc</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>364</size>
+ </file>
+ <file fileID="568">
+  <name>Babylonian.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>5137</size>
+ </file>
+ <file fileID="569">
+  <name>SelectBox.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>10897</size>
+ </file>
+ <file fileID="570">
+  <name>SelectBox.xml</name>
+  <extension>.xml</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>4563</size>
+ </file>
+ <file fileID="571">
+  <name>ScrollSheet.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>29479</size>
+ </file>
+ <file fileID="572">
+  <name>PanelScroller.lua</name>
+  <extension>.lua</extension>
+  <date>2009-04-16 02:27:19</date>
+  <size>9193</size>
+ </file>
+ <file fileID="573">
+  <name>Liferoot.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-15 00:50:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="574">
+  <name>AddersTongue.blp</name>
+  <extension>.blp</extension>
+  <date>2009-04-16 02:13:47</date>
+  <size>6660</size>
+ </file>
+ <file fileID="575">
+  <name>Sungrass.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="576">
+  <name>Plaguebloom.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="577">
+  <name>Bruiseweed.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="578">
+  <name>Gromsblood.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="579">
+  <name>AncientLichen.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-06 23:39:41</date>
+  <size>6660</size>
+ </file>
+ <file fileID="580">
+  <name>GoldClover.blp</name>
+  <extension>.blp</extension>
+  <date>2009-04-16 02:13:47</date>
+  <size>6660</size>
+ </file>
+ <file fileID="581">
+  <name>WildSteelbloom.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-15 00:50:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="582">
+  <name>BlackLotus.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-06 23:39:41</date>
+  <size>6660</size>
+ </file>
+ <file fileID="583">
+  <name>TalandrasRose.blp</name>
+  <extension>.blp</extension>
+  <date>2009-04-16 02:13:47</date>
+  <size>6660</size>
+ </file>
+ <file fileID="584">
+  <name>Fadeleaf.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="585">
+  <name>GraveMoss.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-15 00:50:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="586">
+  <name>TigerLily.blp</name>
+  <extension>.blp</extension>
+  <date>2009-04-16 02:13:47</date>
+  <size>6660</size>
+ </file>
+ <file fileID="587">
+  <name>FelBlossom.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="588">
+  <name>MountainSilversage.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="589">
+  <name>Mageroyal.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-15 00:50:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="590">
+  <name>NightmareVine.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="591">
+  <name>GoldenSansam.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="592">
+  <name>FlameCap.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="593">
+  <name>Silverleaf.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="594">
+  <name>Icecap.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="595">
+  <name>Felweed.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-06 23:39:41</date>
+  <size>6660</size>
+ </file>
+ <file fileID="596">
+  <name>NightmareSeed.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="597">
+  <name>Swiftthistle.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="598">
+  <name>Earthroot.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="599">
+  <name>Ragveil.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-06 23:39:41</date>
+  <size>6660</size>
+ </file>
+ <file fileID="600">
+  <name>DreamingGlory.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="601">
+  <name>Blindweed.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="602">
+  <name>FelLotus.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-06 23:39:41</date>
+  <size>6660</size>
+ </file>
+ <file fileID="603">
+  <name>Terocone.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-12 21:48:35</date>
+  <size>6660</size>
+ </file>
+ <file fileID="604">
+  <name>Goldthorn.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="605">
+  <name>Netherdust.blp</name>
+  <extension>.blp</extension>
+  <date>2007-09-23 01:38:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="606">
+  <name>Peacebloom.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-15 00:50:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="607">
+  <name>Briarthorn.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-15 00:50:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="608">
+  <name>Firebloom.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="609">
+  <name>GhostMushroom.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-15 00:50:39</date>
+  <size>6660</size>
+ </file>
+ <file fileID="610">
+  <name>Kingsblood.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="611">
+  <name>ManaThistle.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="612">
+  <name>Stranglekelp.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="613">
+  <name>IceThorn.blp</name>
+  <extension>.blp</extension>
+  <date>2009-04-16 02:13:47</date>
+  <size>6660</size>
+ </file>
+ <file fileID="614">
+  <name>LichBloom.blp</name>
+  <extension>.blp</extension>
+  <date>2009-04-16 02:13:47</date>
+  <size>6660</size>
+ </file>
+ <file fileID="615">
+  <name>Dreamfoil.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+ <file fileID="616">
+  <name>KhadgarsWhisker.blp</name>
+  <extension>.blp</extension>
+  <date>2007-02-08 00:13:25</date>
+  <size>6660</size>
+ </file>
+</XMLDataBase>

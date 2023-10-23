@@ -66,6 +66,7 @@ signals:
     void isStartedChanged();
     void isPausedChanged();
     void isCancelledChanged();
+    void indexingFinished();
 
 public slots:
 

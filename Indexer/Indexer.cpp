@@ -10,6 +10,7 @@ void Indexer::detachRun(const QString& startDirectory,
         this->startDirectory = startDirectory.toStdString();
         this->isProcessingInCurrentDir = isProcessingInCurrentDir;
         QtConcurrent::run([this] { startIndexing(); });
+        qDebug() << "end";
     } else {
         qDebug() << "Already started";
     }
@@ -36,6 +37,7 @@ void Indexer::startIndexing() {
     this->isCancelled = true;
     emit isCancelledChanged();
     this->isStarted = false;
+    emit indexingFinished();
     qDebug() << "Indexing done";
 }
 

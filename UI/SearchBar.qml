@@ -69,9 +69,16 @@ Item {
         y: searchInput.y + searchInput.height + 5
         text: "Find"
         onClicked: {
-            if (!fillModel.isFilteringStarted) {
+            if (!fillModel.isFilteringStarted)
                 fillModel.filter(comboBox.currentText, indexInput.text, extensionText);
-            }
+
+        }
+    }
+
+    Connections {
+        target: indexer
+        onIndexingFinished: {
+            fillModel.filter(comboBox.currentText, indexInput.text, extensionText);
         }
     }
 
