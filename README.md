@@ -24,7 +24,7 @@ Install git:
 sudo pacman -S git
 ```
 ### Ubuntu
-Install Cmake:
+Install CMake:
 ```
 sudo apt install cmake
 ```
@@ -38,13 +38,13 @@ sudo apt-get install git-all
 ```
 ## How to build project
 Clone repo from github:
-```
+```bash
 cd ~/Downloads
 git clone git@github.com:hiddensudo/FileIndexer.git
 cd FileIndexer
 ```
 Build FileIndexer:
-```
+```bash
 mkdir build
 cd build
 cmake ..
