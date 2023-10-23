@@ -26,12 +26,12 @@ private:
     bool isFileExists(const QString &listName, const QString &fileName);
 
 public:
-    XMLWriter(const QString &fileName);
+    explicit XMLWriter(const QString &fileName);
     ~XMLWriter();
     void close();
-    void writeInFile(const QString listName, const QString name,
-                     const QString extension, const QString date,
-                     const QString size);
+    void writeInFile(const QString &listName, const QString &name,
+                     const QString &extension, const QString &date,
+                     const QString &size);
 };
 
 #endif  // XMLWriter_H

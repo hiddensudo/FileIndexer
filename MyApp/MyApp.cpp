@@ -19,7 +19,7 @@ void MyApp::setupEngine() {
 void MyApp::setupConnections() {
     QObject::connect(
         &engine, &QQmlApplicationEngine::objectCreated, this,
-        [this](QObject *obj, const QUrl &objUrl) {
+        [this](const QObject *obj, const QUrl &objUrl) {
             if (!obj && objUrl == this->engine.rootContext()->baseUrl())
                 QCoreApplication::exit(-1);
         },

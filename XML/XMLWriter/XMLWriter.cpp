@@ -39,9 +39,9 @@ void XMLWriter::writeToFile(QDomDocument &document) {
     xmlContent << document.toString();
 }
 
-void XMLWriter::writeInFile(const QString listName, const QString name,
-                            const QString extension, const QString date,
-                            const QString size) {
+void XMLWriter::writeInFile(const QString &listName, const QString &name,
+                            const QString &extension, const QString &date,
+                            const QString &size) {
     if (isFileExists(listName, name)) {
         // qDebug() << "File already exists: " << name;
         return;

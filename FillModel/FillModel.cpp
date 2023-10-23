@@ -99,7 +99,7 @@ void FillModel::parseFile(QXmlStreamReader &xml, const QString &criteria,
 
 void FillModel::openFile() {
     if (!this->file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        qDebug() << "Cannot open file1";
+        qDebug() << "Cannot open file";
         return;
     }
 }
