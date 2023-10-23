@@ -9,7 +9,7 @@ C++17
 QT 6
 ```
 
-## Install dependencys
+## Install dependencies
 ### Arch
 Install CMake:
 ```
@@ -36,7 +36,7 @@ Install git
 ```
 sudo apt-get install git-all
 ```
-## How to build project
+## How to build a project
 Clone repo from github:
 ```bash
 cd ~/Downloads
@@ -70,7 +70,7 @@ You can find more detailed information about your indexed files if you know at l
 ![FileIndexerFinding](https://github.com/hiddensudo/FileIndexer/assets/111019096/ad1ab8e3-351f-4bf0-93b9-670990c77661)
 
 ### Find by date
-If you want to search by date, name or size, you need to select the search criterion in the corresponding drop-down menu, then enter the relevant information in the field and click the "Find" button.
+If you want to search by date, name, or size, you need to select the search criterion in the corresponding drop-down menu, then enter the relevant information in the field and click the "Find" button.
 
 ![FindByDate](https://github.com/hiddensudo/FileIndexer/assets/111019096/c8dcfdcd-8932-4059-b05c-74ad461febeb)
 
@@ -80,7 +80,7 @@ If you want to search by date, name or size, you need to select the search crite
 
 ## Uml Class Diagram
 ### About UML Class Diagram
-While working on this application, an uml class diagram was developed. To view it in detail, you can open the file called UmlClassDiagram.puml
+While working on this application, an UML class diagram was developed. To view it in detail, you can open the file called UmlClassDiagram.puml
 
 ### UML Class Diagram Visualization
 To visually represent a Uml class diagram, you can use the resource [www.plantuml.com](www.plantuml.com).
