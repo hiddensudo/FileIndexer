@@ -184,7 +184,6 @@ void Indexer::indexInCurrentDir(const std::string &currentDirectory) {
                 }
             }
         }
-        stop();
     } catch (const std::filesystem::filesystem_error& e) {
         {
             std::unique_lock<std::mutex> lock(queueMutex);
