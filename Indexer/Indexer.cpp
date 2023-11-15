@@ -8,7 +8,7 @@ void Indexer::detachRun(const QString& startDirectory,
                         bool isProcessingInCurrentDir) {
     if (!this->isStarted) {
         this->startDirectory = startDirectory.toStdString();
-        this->isProcessingInCurrentDir = isProcessingInCurrentDir;
+        this->isProcessingInCurrentDir = isProcessingInCurrentDir; // Enum is better
         QtConcurrent::run([this] { startIndexing(); });
         qDebug() << "end";
     } else {
@@ -19,9 +19,9 @@ void Indexer::detachRun(const QString& startDirectory,
 void Indexer::startIndexing() {
     refresh();
     qDebug() << "Started";
-    this->isStarted = true;
+    this->isStarted = true; // separate function
     emit isStartedChanged();
-    const unsigned int maxThreads = std::thread::hardware_concurrency() - 1;
+    const unsigned int maxThreads = std::thread::hardware_concurrency() - 1; // constexpr
 
     std::vector<std::thread> threads;
     threads.reserve(maxThreads);
@@ -34,6 +34,7 @@ void Indexer::startIndexing() {
         thread.join();
     }
 
+    // separate functions
     this->isCancelled = true;
     emit isCancelledChanged();
     this->isStarted = false;
@@ -85,7 +86,10 @@ bool Indexer::getIsStarted() const { return isStarted; }
 bool Indexer::getIsPaused() const { return isPaused; }
 bool Indexer::getIsCancelled() const { return isCancelled; }
 
+namespace fs = std::filesystem; // May help ro reguce code;
+
 QString convertTime(const std::filesystem::directory_entry& entry) {
+    using namespace std::chrono; // Local using may reduce code;
     std::filesystem::file_time_type fileTime =
         std::filesystem::last_write_time(entry);
 
@@ -124,45 +128,37 @@ bool isDirectoryExistst(const std::string& currentDirectory) {
 }
 
 void Indexer::indexInDirAndSubDir(const std::string& currentDirectory) {
-    try {
-        if (!isDirectoryExistst) {
-            return;
-        }
-        for (const auto& entry :
-             std::filesystem::directory_iterator(currentDirectory)) {
-            if (entry.path() != "/proc" && entry.is_directory()) {
-                {
-                    if (this->isCancelled) {
-                        return;
-                    } else {
-                        {
-                            std::unique_lock<std::mutex> lock(this->queueMutex);
+    // Use errod_code instead
 
-                            this->processingQueue.push(entry.path());
+    // Simplify it!!!!
 
-                            this->queueCV.notify_one();
-                        }
-                    }
-                }
-            } else if (entry.is_regular_file()) {
-                if (this->isCancelled) {
-                    return;
-                } else {
-                    {
-                        std::unique_lock<std::mutex> lock(this->indexMutex);
-
-                        writeInXml(entry);
-
-                        this->queueCV.notify_one();
-                    }
-                }
-            }
-        }
-    } catch (const std::filesystem::filesystem_error& e) {
-        std::unique_lock<std::mutex> lock(this->queueMutex);
-        std::cout << e.what() << std::endl;
-        lock.unlock();
+    if (!isDirectoryExistst) {
+        return;
     }
+
+    for (const auto& entry : std::filesystem::directory_iterator(currentDirectory)) {
+        if (entry.path() == "/proc" || this->isCancelled) 
+            continue;
+
+        if (entry.is_directory()) {
+            std::unique_lock<std::mutex> lock(this->queueMutex);
+
+            this->processingQueue.push(entry.path());
+
+            this->queueCV.notify_one();
+            continue;
+        }
+        
+        if (entry.is_regular_file()) {
+            std::unique_lock<std::mutex> lock(this->indexMutex);
+
+            writeInXml(entry);
+
+            this->queueCV.notify_one();
+            continue;
+        }
+    }
+
 }
 
 void Indexer::indexInCurrentDir(const std::string &currentDirectory) {
@@ -199,12 +195,15 @@ void Indexer::processAll() {
         }
 
         if (this->isPaused) {
-            std::this_thread::sleep_for(std::chrono::milliseconds(100));
+            std::this_thread::sleep_for(std::chrono::milliseconds(100)); // Why do we need it?
             continue;
         } else {
             std::string currentDirectory;
 
-            processQueue(currentDirectory);
+            // Change naming
+            // return by return value not by reference to value
+            // optional may be better
+            processQueue(currentDirectory); // Next()
 
             processDirectory(currentDirectory);
         }
@@ -231,35 +230,38 @@ void Indexer::processQueue(std::string& currentDirectory) {
 }
 
 void Indexer::processDirectory(const std::string& currentDirectory) {
-    if (!currentDirectory.empty()) {
-        this->activeThreads++;
-        processFilesBaseOnScope(currentDirectory);
+    // May be simplified 
 
-        this->activeThreads--;
-        {
-            std::unique_lock<std::mutex> lock(this->queueMutex);
-            if (this->activeThreads == 0 && this->processingQueue.empty()) {
-                queueCV.notify_all();
-                return;
-            } else {
-                queueCV.notify_one();
-            }
+    // if (currentDirectory.empty()) 
+    //     return;
+    
+    this->activeThreads++;
+    processFilesBaseOnScope(currentDirectory);
+
+    this->activeThreads--;
+    {
+        std::unique_lock<std::mutex> lock(this->queueMutex);
+        if (this->activeThreads == 0 && this->processingQueue.empty()) {
+            queueCV.notify_all();
+            return;
+        } else {
+            queueCV.notify_one();
         }
-        qDebug() << this->activeThreads;
     }
+    qDebug() << this->activeThreads;
 }
 
 void Indexer::processFilesBaseOnScope(const std::string& currentDirectory) {
     if (this->isProcessingInCurrentDir) {
         indexInCurrentDir(currentDirectory);
     } else {
-        indexInDirAndSubDir(currentDirectory);
+        indexInDirAndSubDir(currentDirectory); // In dir and sub dir - not readable
     }
 }
 
 Indexer::Indexer()
     : xmlPath("db.xml"),
-      wr("../" + xmlPath),
+      wr("../" + xmlPath), // Hardcoded... Fails if db doesn;t exist
       startDirectory(),
       isProcessingInCurrentDir(true),
       activeThreads(0),

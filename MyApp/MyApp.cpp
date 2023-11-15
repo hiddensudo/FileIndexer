@@ -16,7 +16,7 @@ void MyApp::setupEngine() {
     engine.load(url);
 }
 
-void MyApp::setupConnections() {
+void MyApp::setupConnections() { // Should be disconnected in destructor
     QObject::connect(
         &engine, &QQmlApplicationEngine::objectCreated, this,
         [this](const QObject *obj, const QUrl &objUrl) {

@@ -1,0 +1,100 @@
+2023-10-27 18:05:12,813 - aqt.helper - DEBUG - helper 140703507699520 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/Updates.xml.sha256
+2023-10-27 18:05:13,380 - aqt.helper - DEBUG - helper 140703507699520 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660_wasm_singlethread/Updates.xml.sha256
+2023-10-27 18:05:14,178 - aqt.helper - DEBUG - helper 140703507699520 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660_wasm_multithread/Updates.xml.sha256
+2023-10-27 18:06:49,455 - aqt.helper - DEBUG - helper 139698915383104 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/Updates.xml.sha256
+2023-10-27 18:06:49,828 - aqt.helper - DEBUG - helper 139698915383104 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660_wasm_singlethread/Updates.xml.sha256
+2023-10-27 18:06:50,220 - aqt.helper - DEBUG - helper 139698915383104 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660_wasm_multithread/Updates.xml.sha256
+2023-10-27 18:07:36,314 - aqt.main - INFO - installer 139795874883392 aqtinstall(aqt) v3.1.7 on Python 3.8.10 [CPython GCC 9.4.0]
+2023-10-27 18:07:36,314 - aqt.helper - DEBUG - helper 139795874883392 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/Updates.xml.sha256
+2023-10-27 18:07:37,021 - aqt.helper - DEBUG - helper 139995232032576 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qtbase-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z.sha256
+2023-10-27 18:07:37,028 - aqt.helper - DEBUG - helper 140573309245248 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qtsvg-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z.sha256
+2023-10-27 18:07:37,043 - aqt.helper - DEBUG - helper 140286379947840 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qtdeclarative-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z.sha256
+2023-10-27 18:07:37,045 - aqt.helper - DEBUG - helper 140695366563648 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qttools-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z.sha256
+2023-10-27 18:07:37,185 - aqt.helper - INFO - helper 139995232032576 Downloading qtbase...
+2023-10-27 18:07:37,185 - aqt.installer - DEBUG - installer 139995232032576 Download URL: https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qtbase-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z
+2023-10-27 18:07:37,191 - aqt.helper - INFO - helper 140573309245248 Downloading qtsvg...
+2023-10-27 18:07:37,191 - aqt.installer - DEBUG - installer 140573309245248 Download URL: https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qtsvg-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z
+2023-10-27 18:07:37,208 - aqt.helper - INFO - helper 140695366563648 Downloading qttools...
+2023-10-27 18:07:37,209 - aqt.installer - DEBUG - installer 140695366563648 Download URL: https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qttools-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z
+2023-10-27 18:07:37,213 - aqt.helper - INFO - helper 140286379947840 Downloading qtdeclarative...
+2023-10-27 18:07:37,214 - aqt.installer - DEBUG - installer 140286379947840 Download URL: https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qtdeclarative-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z
+2023-10-27 18:07:37,349 - aqt.helper - DEBUG - helper 139995232032576 Asked to redirect(302) to: https://ftp.icm.edu.pl/packages/qt/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qtbase-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z
+2023-10-27 18:07:37,350 - aqt.helper - INFO - helper 139995232032576 Redirected: ftp.icm.edu.pl
+2023-10-27 18:07:37,362 - aqt.helper - DEBUG - helper 140573309245248 Asked to redirect(302) to: https://ftp.icm.edu.pl/packages/qt/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qtsvg-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z
+2023-10-27 18:07:37,362 - aqt.helper - INFO - helper 140573309245248 Redirected: ftp.icm.edu.pl
+2023-10-27 18:07:37,375 - aqt.helper - DEBUG - helper 140695366563648 Asked to redirect(302) to: https://ftp.icm.edu.pl/packages/qt/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qttools-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z
+2023-10-27 18:07:37,375 - aqt.helper - INFO - helper 140695366563648 Redirected: ftp.icm.edu.pl
+2023-10-27 18:07:37,376 - aqt.helper - DEBUG - helper 140286379947840 Asked to redirect(302) to: https://ftp.icm.edu.pl/packages/qt/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qtdeclarative-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z
+2023-10-27 18:07:37,376 - aqt.helper - INFO - helper 140286379947840 Redirected: ftp.icm.edu.pl
+2023-10-27 18:07:37,829 - aqt.installer - INFO - installer 140573309245248 Finished installation of qtsvg-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z in 0.80425913
+2023-10-27 18:07:37,839 - aqt.helper - DEBUG - helper 140573309245248 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qttranslations-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z.sha256
+2023-10-27 18:07:38,259 - aqt.helper - INFO - helper 140573309245248 Downloading qttranslations...
+2023-10-27 18:07:38,261 - aqt.installer - DEBUG - installer 140573309245248 Download URL: https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qttranslations-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z
+2023-10-27 18:07:39,360 - aqt.helper - DEBUG - helper 140573309245248 Asked to redirect(302) to: https://ftp.icm.edu.pl/packages/qt/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qttranslations-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z
+2023-10-27 18:07:39,360 - aqt.helper - INFO - helper 140573309245248 Redirected: ftp.icm.edu.pl
+2023-10-27 18:07:40,612 - aqt.installer - INFO - installer 140573309245248 Finished installation of qttranslations-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z in 2.77464766
+2023-10-27 18:07:40,621 - aqt.helper - DEBUG - helper 140573309245248 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qtwayland-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z.sha256
+2023-10-27 18:07:41,077 - aqt.helper - INFO - helper 140573309245248 Downloading qtwayland...
+2023-10-27 18:07:41,078 - aqt.installer - DEBUG - installer 140573309245248 Download URL: https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qtwayland-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z
+2023-10-27 18:07:41,515 - aqt.helper - DEBUG - helper 140573309245248 Asked to redirect(302) to: https://ftp.icm.edu.pl/packages/qt/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911qtwayland-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z
+2023-10-27 18:07:41,515 - aqt.helper - INFO - helper 140573309245248 Redirected: ftp.icm.edu.pl
+2023-10-27 18:07:42,232 - aqt.installer - INFO - installer 140573309245248 Finished installation of qtwayland-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z in 1.61224189
+2023-10-27 18:07:42,242 - aqt.helper - DEBUG - helper 140573309245248 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911icu-linux-Rhel7.2-x64.7z.sha256
+2023-10-27 18:07:42,562 - aqt.helper - INFO - helper 140573309245248 Downloading icu...
+2023-10-27 18:07:42,562 - aqt.installer - DEBUG - installer 140573309245248 Download URL: https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911icu-linux-Rhel7.2-x64.7z
+2023-10-27 18:07:44,417 - aqt.installer - INFO - installer 139995232032576 Finished installation of qtbase-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z in 7.39800046
+2023-10-27 18:07:48,208 - aqt.installer - INFO - installer 140695366563648 Finished installation of qttools-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z in 11.16496569
+2023-10-27 18:07:58,938 - aqt.installer - INFO - installer 140286379947840 Finished installation of qtdeclarative-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64.7z in 21.89587170
+2023-10-27 18:08:13,011 - aqt.helper - DEBUG - helper 140573309245248 Asked to redirect(302) to: https://ftp.icm.edu.pl/packages/qt/online/qtsdkrepository/linux_x64/desktop/qt6_660/qt.qt6.660.gcc_64/6.6.0-0-202310040911icu-linux-Rhel7.2-x64.7z
+2023-10-27 18:08:13,011 - aqt.helper - INFO - helper 140573309245248 Redirected: ftp.icm.edu.pl
+2023-10-27 18:08:14,450 - aqt.installer - INFO - installer 140573309245248 Finished installation of icu-linux-Rhel7.2-x64.7z in 32.20882278
+2023-10-27 18:08:14,528 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/bin/qmake
+2023-10-27 18:08:14,531 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QuickControls2Impl.pc
+2023-10-27 18:08:14,531 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Svg.pc
+2023-10-27 18:08:14,532 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Linguist.pc
+2023-10-27 18:08:14,532 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6LabsSettings.pc
+2023-10-27 18:08:14,532 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QuickControls2.pc
+2023-10-27 18:08:14,532 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Xml.pc
+2023-10-27 18:08:14,532 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6PrintSupport.pc
+2023-10-27 18:08:14,532 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6OpenGL.pc
+2023-10-27 18:08:14,533 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Widgets.pc
+2023-10-27 18:08:14,533 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Core.pc
+2023-10-27 18:08:14,533 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QmlIntegration.pc
+2023-10-27 18:08:14,533 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QmlCore.pc
+2023-10-27 18:08:14,533 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Designer.pc
+2023-10-27 18:08:14,534 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QuickTest.pc
+2023-10-27 18:08:14,534 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QmlWorkerScript.pc
+2023-10-27 18:08:14,534 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6SvgWidgets.pc
+2023-10-27 18:08:14,534 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6UiPlugin.pc
+2023-10-27 18:08:14,534 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Help.pc
+2023-10-27 18:08:14,534 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QuickLayouts.pc
+2023-10-27 18:08:14,535 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Qml.pc
+2023-10-27 18:08:14,535 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6LabsFolderListModel.pc
+2023-10-27 18:08:14,535 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QuickTemplates2.pc
+2023-10-27 18:08:14,535 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QuickDialogs2.pc
+2023-10-27 18:08:14,535 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Test.pc
+2023-10-27 18:08:14,535 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Platform.pc
+2023-10-27 18:08:14,535 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Quick.pc
+2023-10-27 18:08:14,535 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QmlCompiler.pc
+2023-10-27 18:08:14,536 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6LabsWavefrontMesh.pc
+2023-10-27 18:08:14,536 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QuickWidgets.pc
+2023-10-27 18:08:14,536 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QmlModels.pc
+2023-10-27 18:08:14,536 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6LabsSharedImage.pc
+2023-10-27 18:08:14,536 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6DBus.pc
+2023-10-27 18:08:14,536 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6WaylandClient.pc
+2023-10-27 18:08:14,536 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Concurrent.pc
+2023-10-27 18:08:14,537 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6OpenGLWidgets.pc
+2023-10-27 18:08:14,537 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QuickDialogs2Utils.pc
+2023-10-27 18:08:14,537 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QDocCatchGeneratorsPrivate.pc
+2023-10-27 18:08:14,537 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QmlXmlListModel.pc
+2023-10-27 18:08:14,537 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6UiTools.pc
+2023-10-27 18:08:14,537 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Network.pc
+2023-10-27 18:08:14,538 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Gui.pc
+2023-10-27 18:08:14,538 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QuickDialogs2QuickImpl.pc
+2023-10-27 18:08:14,538 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6LabsAnimation.pc
+2023-10-27 18:08:14,538 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6LabsQmlModels.pc
+2023-10-27 18:08:14,538 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6Sql.pc
+2023-10-27 18:08:14,539 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QmlLocalStorage.pc
+2023-10-27 18:08:14,539 - aqt.updater - INFO - updater 139795874883392 Patching /home/maksym/project/mentorship/BaseCamp2023/task2/FileIndexer/6.6.0/gcc_64/lib/pkgconfig/Qt6QDocCatchConversionsPrivate.pc
+2023-10-27 18:08:14,540 - aqt.main - INFO - installer 139795874883392 Finished installation
+2023-10-27 18:08:14,540 - aqt.main - INFO - installer 139795874883392 Time elapsed: 38.22603289 second

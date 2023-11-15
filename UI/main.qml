@@ -24,7 +24,7 @@ ApplicationWindow {
         anchors.fill: parent
 
         Rectangle {
-            width: parent.width / 2.7
+            width: parent.width / 2.7 // # magic number
             height: parent.height
 
             Column {
@@ -43,7 +43,6 @@ ApplicationWindow {
                     Label {
                         text: "Enter path"
                     }
-
                 }
 
                 IndexInput {
@@ -65,7 +64,6 @@ ApplicationWindow {
                     Label {
                         text: "Choose extension"
                     }
-
                 }
 
                 ExtentionChooser {
@@ -74,7 +72,7 @@ ApplicationWindow {
                     indexInputCombo: searchBar.indexInputCombo
 
                     width: parent.width - 20
-                    height: 25
+                    height: 25 // Use 3 times, May be separate variable
                 }
 
                 SearchBar {
@@ -83,9 +81,7 @@ ApplicationWindow {
                     height: 100
                     extensionText: extensionChooser.chosenExtension
                 }
-
             }
-
         }
 
         Rectangle {
@@ -96,9 +92,6 @@ ApplicationWindow {
             FilesTableView {
                 model: myModel
             }
-
         }
-
     }
-
 }

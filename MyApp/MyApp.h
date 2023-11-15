@@ -19,6 +19,8 @@ private:
     void setupEngine();
     void setupConnections();
 public:
+    // Why do we path by reference?
+    // It can be modified?
     MyApp(int &argc, char **argv);
 
     int run() { return exec(); }

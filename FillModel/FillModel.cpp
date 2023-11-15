@@ -94,6 +94,7 @@ void FillModel::parseFile(QXmlStreamReader &xml, const QString &criteria,
         items.append(new QStandardItem(size));
 
         model->appendRow(items);
+        // We can use emit Model
     }
 }
 

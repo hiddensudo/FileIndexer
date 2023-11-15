@@ -8,7 +8,7 @@ ListView {
         "name": parent.width / 7.9,
         "extension": parent.width / 7.9,
         "date": parent.width / 5.9,
-        "size": parent.width / 9.9
+        "size": parent.width / 9.9 // Magic numbers
     })
     property var calculatedColumns: ["fileID", "name", "extension", "date", "size"]
 
@@ -37,6 +37,7 @@ ListView {
 
     delegate: RowLayout {
         property var columnWidths: ListView.view.columnWidths
+        property int leftMargin: 10 
 
         spacing: 0
 
@@ -46,10 +47,11 @@ ListView {
             Layout.preferredHeight: implicitHeight
             Layout.preferredWidth: columnWidths.fileID
             text: fileID
+            // color: "black"
 
             background: Rectangle {
                 border.color: "black"
-                anchors.leftMargin: 10
+                anchors.leftMargin: leftMargin
             }
 
         }
@@ -60,6 +62,7 @@ ListView {
             Layout.preferredHeight: implicitHeight
             Layout.preferredWidth: columnWidths.name
             text: name
+            // color: "black"
 
             background: Rectangle {
                 border.color: "black"
@@ -74,6 +77,7 @@ ListView {
             Layout.preferredHeight: implicitHeight
             Layout.preferredWidth: columnWidths.extension
             text: extension
+            // color: "black"
 
             background: Rectangle {
                 border.color: "black"
@@ -88,6 +92,7 @@ ListView {
             Layout.preferredHeight: implicitHeight
             Layout.preferredWidth: columnWidths.date
             text: date
+            // color: "black"
 
             background: Rectangle {
                 border.color: "black"
@@ -102,6 +107,7 @@ ListView {
             Layout.preferredHeight: implicitHeight
             Layout.preferredWidth: columnWidths.size
             text: size
+            // color: "black"
 
             background: Rectangle {
                 border.color: "black"

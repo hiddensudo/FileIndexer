@@ -16,6 +16,8 @@ ComboBox {
     ".java", ".jpeg", ".jpg", ".js", ".json", ".jsp", ".log", ".m4a",".m4v", ".mkv", ".mov", ".mp3", ".mp4", ".mpeg", ".mpg", ".odp",
     ".ods", ".odt", ".ogg", ".otf", ".pdf", ".php", ".png", ".ppt",".pptx", ".psd", ".py", ".rar", ".rb", ".rtf", ".sh", ".sql",".svg",
     ".swf", ".sys", ".tar.gz", ".tex", ".tif", ".tiff",".tsv", ".txt", ".wav", ".webm", ".webp", ".xls", ".xlsx", ".xml", ".zip"]
+    // What if we get this list from our DB
+    // .tar.gz will never be shown
     currentIndex: 0
     onCurrentTextChanged: fillModel.filter(indexInputCombo, indexInputText, comboBox.currentText)
 }

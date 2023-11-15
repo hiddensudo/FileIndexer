@@ -13,6 +13,7 @@ void XMLWriter::openFile() {
 }
 
 void XMLWriter::openIfExist() {
+    // If not exist we should create
     if (this->file.exists()) {
         openFile();
     } else {
@@ -82,8 +83,8 @@ bool XMLWriter::isFileExists(const QString &listName, const QString &fileName) {
         QDomElement fileElem = files.at(i).toElement();
         QDomNodeList names = fileElem.elementsByTagName("name");
         if (!names.isEmpty()) {
-            QDomElement nameElem = names.at(0).toElement();
-            if (nameElem.text() == fileName) {
+            // You can optimize
+            if (names.at(0).toElement().text() == fileName) {
                 return true;
             }
         }
@@ -93,7 +94,7 @@ bool XMLWriter::isFileExists(const QString &listName, const QString &fileName) {
 
 XMLWriter::XMLWriter(const QString &fileName) : file(fileName) {
     openIfExist();
-    if (this->file.size() != 0) {
+    if (this->file.size() != 0) {  // !empty()
         document.setContent(&this->file);
     }
 }

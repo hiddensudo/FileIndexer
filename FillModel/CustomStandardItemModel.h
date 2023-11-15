@@ -3,11 +3,12 @@
 
 #include <QStandardItemModel>
 
+// CustomStandard sounds weirdly
 class CustomStandardItemModel : public QStandardItemModel {
     Q_OBJECT
 
 public:
-    enum Roles {
+    enum Roles { // enum classes are better
         FileIdRole = Qt::UserRole + 1,
         NameRole,
         ExtensionRole,

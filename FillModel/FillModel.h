@@ -8,6 +8,7 @@
 #include <QStandardItemModel>
 #include <QXmlStreamReader>
 
+//  Maybe XmlListModel may be used
 class FillModel : public QObject {
     Q_OBJECT
 
@@ -29,6 +30,7 @@ public:
 
     void parseXML();
 
+// Shouldn't it be just Q_INVOKABLE?
 public slots:
     void filter(const QString &criteria, const QString &text,
                 const QString &extension);
