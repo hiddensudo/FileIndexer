@@ -1,4 +1,4 @@
-# FileIndexer
+# QT-File-Indexer 
 File Indexer is a cross-platform desktop program for indexing files in a given directory. This application was developed using the c++ programming language, the QT6 GUI development library, and the qml declarative programming language.# What this app can do
 
 ## Requirments
